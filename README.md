@@ -1,6 +1,6 @@
 # Watch Out for That Volcano!
 
-**DS510 Team Project – City University of Seattle**
+**DS520 Team Project – City University of Seattle**
 
 ## Overview
 
