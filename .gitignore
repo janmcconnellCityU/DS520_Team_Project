@@ -1,0 +1,23 @@
+# R-specific
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+
+# Mac system files
+.DS_Store
+
+# Output folders (optional — you can remove these if you want to track results)
+output/
+figures/
+*.pdf
+*.png
+
+# Large data files (optional — remove if you want to include your CSVs)
+*.csv
+*.xlsx
+
+# Logs or temp files
+*.log
+*.tmp
