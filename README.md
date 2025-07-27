@@ -1,6 +1,8 @@
-# Volcanic Risk Modeling Using Machine Learning
+# Watch Out for That Volcano!
 
-## Abstract
+**DS510 Team Project – City University of Seattle**
+
+## Overview
 
 This project applies data mining techniques in R to analyze volcanic risk using global data from the Smithsonian Global Volcanism Program. The team explores three key questions:
 
