@@ -1,0 +1,1251 @@
+"Volcano_Number","Volcano_Name","Country","Elevation_(m)","Tectonic_Setting","eruption_count","risk_score"
+210010,"West Eifel Volcanic Field","Germany",600,"Rift zone / Continental crust (>25 km)",2,2
+210020,"Chaine des Puys","France",1464,"Rift zone / Continental crust (>25 km)",8,8
+210030,"Olot Volcanic Field","Spain",893,"Intraplate / Continental crust (>25 km)",0,0
+210040,"Calatrava Volcanic Field","Spain",1117,"Intraplate / Continental crust (>25 km)",1,1
+211004,"Colli Albani","Italy",949,"Subduction zone / Continental crust (>25 km)",0,0
+211010,"Campi Flegrei","Italy",458,"Subduction zone / Continental crust (>25 km)",20,20
+211020,"Vesuvius","Italy",1281,"Subduction zone / Continental crust (>25 km)",54,54
+211030,"Ischia","Italy",789,"Subduction zone / Continental crust (>25 km)",23,23
+211031,"Palinuro","Italy",-70,"Subduction zone / Continental crust (>25 km)",1,1
+211040,"Stromboli","Italy",924,"Subduction zone / Continental crust (>25 km)",22,22
+211041,"Panarea","Italy",399,"Subduction zone / Continental crust (>25 km)",0,0
+211042,"Lipari","Italy",590,"Subduction zone / Continental crust (>25 km)",3,3
+211050,"Vulcano","Italy",500,"Subduction zone / Continental crust (>25 km)",37,37
+211060,"Etna","Italy",3357,"Subduction zone / Continental crust (>25 km)",147,147
+211070,"Campi Flegrei del Mar di Sicilia","Italy",-8,"Rift zone / Continental crust (>25 km)",6,6
+211071,"Pantelleria","Italy",836,"Rift zone / Continental crust (>25 km)",7,7
+211080,"Marsili","Italy",-779,NA,2,2
+212020,"Methana","Greece",380,"Subduction zone / Continental crust (>25 km)",1,1
+212030,"Milos","Greece",751,"Subduction zone / Continental crust (>25 km)",1,1
+212040,"Santorini","Greece",367,"Subduction zone / Continental crust (>25 km)",11,11
+212042,"Kolumbo","Greece",-18,NA,1,1
+212050,"Nisyros","Greece",698,"Subduction zone / Continental crust (>25 km)",4,4
+213000,"Kula","Turkiye",750,"Intraplate / Continental crust (>25 km)",0,0
+213002,"Hasandag-Keciboyduran Volcanic Complex","Turkiye",3253,"Intraplate / Continental crust (>25 km)",0,0
+213010,"Erciyes Volcanic Complex","Turkiye",3864,"Intraplate / Continental crust (>25 km)",1,1
+213011,"Karaca Dag","Turkiye",1957,"Intraplate / Continental crust (>25 km)",0,0
+213020,"Nemrut Dagi","Turkiye",2948,"Intraplate / Continental crust (>25 km)",26,26
+213030,"Tenduruk Dagi","Turkiye",3514,"Intraplate / Continental crust (>25 km)",2,2
+213040,"Ararat","Turkiye",5165,"Intraplate / Continental crust (>25 km)",3,3
+214010,"Elbrus","Russia",5642,"Intraplate / Continental crust (>25 km)",1,1
+214020,"Kazbek","Georgia",5050,"Intraplate / Continental crust (>25 km)",2,2
+214050,"Samsari Volcanic Center","Georgia",3290,"Intraplate / Continental crust (>25 km)",0,0
+214060,"Aragats","Armenia",4095,"Intraplate / Continental crust (>25 km)",0,0
+214070,"Ghegham Volcanic Ridge","Armenia",3597,"Intraplate / Continental crust (>25 km)",1,1
+214080,"Vaiyots-Sar","Armenia",2575,"Intraplate / Continental crust (>25 km)",1,1
+214090,"Porak","Armenia-Azerbaijan",3029,"Intraplate / Continental crust (>25 km)",2,2
+214100,"Tskhouk-Karckar","Armenia-Azerbaijan",3139,"Intraplate / Continental crust (>25 km)",1,1
+221010,"Tair, Jebel at","Yemen",244,"Rift zone / Oceanic crust (< 15 km)",5,5
+221020,"Zubair Group","Yemen",191,"Rift zone / Oceanic crust (< 15 km)",3,3
+221021,"Zukur","Yemen",624,"Rift zone / Oceanic crust (< 15 km)",0,0
+221022,"Hanish","Yemen",422,"Rift zone / Oceanic crust (< 15 km)",0,0
+221040,"Alid","Eritrea",904,"Rift zone / Intermediate crust (15-25 km)",0,0
+221041,"Dallol","Ethiopia",-48,"Rift zone / Intermediate crust (15-25 km)",2,2
+221050,"Gada Ale","Ethiopia",287,"Rift zone / Intermediate crust (15-25 km)",0,0
+221060,"Alu-Dalafilla","Ethiopia",578,"Rift zone / Intermediate crust (15-25 km)",1,1
+221071,"Bora Ale","Ethiopia",668,"Rift zone / Intermediate crust (15-25 km)",0,0
+221080,"Erta Ale","Ethiopia",585,"Rift zone / Intermediate crust (15-25 km)",4,4
+221090,"Ale Bagu","Ethiopia",988,"Rift zone / Intermediate crust (15-25 km)",0,0
+221091,"Hayli Gubbi","Ethiopia",493,"Rift zone / Intermediate crust (15-25 km)",0,0
+221100,"Dubbi","Eritrea",1625,"Rift zone / Intermediate crust (15-25 km)",2,2
+221101,"Nabro","Eritrea",2218,"Rift zone / Intermediate crust (15-25 km)",1,1
+221102,"Mallahle","Ethiopia-Eritrea",1875,"Rift zone / Intermediate crust (15-25 km)",0,0
+221103,"Sork Ale","Ethiopia-Eritrea",1611,"Rift zone / Intermediate crust (15-25 km)",0,0
+221104,"Asavyo","Ethiopia",1338,"Rift zone / Intermediate crust (15-25 km)",0,0
+221105,"Mat Ala","Ethiopia",493,"Rift zone / Intermediate crust (15-25 km)",0,0
+221106,"Tat Ali","Ethiopia",655,"Rift zone / Intermediate crust (15-25 km)",0,0
+221107,"Borawli","Ethiopia",784,"Rift zone / Intermediate crust (15-25 km)",0,0
+221110,"Afdera","Ethiopia",1250,"Rift zone / Intermediate crust (15-25 km)",0,0
+221111,"Ma Alalta","Ethiopia",1745,"Rift zone / Intermediate crust (15-25 km)",0,0
+221112,"Alayta","Ethiopia",1496,"Rift zone / Intermediate crust (15-25 km)",2,2
+221113,"Dabbahu","Ethiopia",1401,"Rift zone / Intermediate crust (15-25 km)",4,4
+221114,"Dabbayra","Ethiopia",1302,"Rift zone / Intermediate crust (15-25 km)",0,0
+221115,"Manda Hararo","Ethiopia",600,"Rift zone / Intermediate crust (15-25 km)",2,2
+221116,"Groppo","Ethiopia",852,"Rift zone / Intermediate crust (15-25 km)",0,0
+221120,"Kurub","Ethiopia",625,"Rift zone / Intermediate crust (15-25 km)",0,0
+221122,"Manda-Inakir","Ethiopia-Djibouti",600,"Rift zone / Intermediate crust (15-25 km)",1,1
+221123,"Mousa Alli","Ethiopia-Eritrea-Djibouti",1993,"Rift zone / Intermediate crust (15-25 km)",0,0
+221124,"Gufa","Eritrea-Djibouti",600,"Rift zone / Intermediate crust (15-25 km)",0,0
+221125,"Assab Volcanic Field","Eritrea",987,"Rift zone / Intermediate crust (15-25 km)",0,0
+221126,"Ardoukoba","Djibouti",298,"Rift zone / Intermediate crust (15-25 km)",1,1
+221127,"Manda Gargori","Ethiopia",700,"Rift zone / Intermediate crust (15-25 km)",0,0
+221141,"Dama Ali","Ethiopia",1068,"Rift zone / Intermediate crust (15-25 km)",1,1
+221150,"Gabillema","Ethiopia",1459,"Rift zone / Intermediate crust (15-25 km)",0,0
+221151,"Yangudi","Ethiopia",1383,"Rift zone / Intermediate crust (15-25 km)",0,0
+221160,"Ayelu","Ethiopia",2145,"Rift zone / Intermediate crust (15-25 km)",0,0
+221170,"Adwa","Ethiopia",1670,"Rift zone / Intermediate crust (15-25 km)",0,0
+221171,"Hertali","Ethiopia",900,"Rift zone / Intermediate crust (15-25 km)",0,0
+221172,"Liado Hayk","Ethiopia",878,"Rift zone / Continental crust (>25 km)",0,0
+221180,"Dofen","Ethiopia",1151,"Rift zone / Continental crust (>25 km)",0,0
+221190,"Fentale","Ethiopia",2007,"Rift zone / Continental crust (>25 km)",2,2
+221191,"Beru","Ethiopia",1100,"Rift zone / Continental crust (>25 km)",0,0
+221200,"Kone","Ethiopia",1380,"Rift zone / Continental crust (>25 km)",1,1
+221210,"Boset","Ethiopia",2447,"Rift zone / Continental crust (>25 km)",0,0
+221220,"Bishoftu Volcanic Field","Ethiopia",1850,"Rift zone / Continental crust (>25 km)",0,0
+221222,"Melkassa","Ethiopia",1765,"Intraplate / Continental crust (>25 km)",0,0
+221230,"Gedemsa","Ethiopia",1909,"Rift zone / Continental crust (>25 km)",0,0
+221250,"Bora-Bericha-Tullu Moye","Ethiopia",2345,"Rift zone / Continental crust (>25 km)",3,3
+221251,"Unnamed","Ethiopia",1886,"Intraplate / Continental crust (>25 km)",0,0
+221252,"East Ziway","Ethiopia",1889,"Rift zone / Continental crust (>25 km)",0,0
+221260,"Butajiri-Silti Field","Ethiopia",2281,"Rift zone / Continental crust (>25 km)",0,0
+221270,"Aluto","Ethiopia",2335,"Rift zone / Continental crust (>25 km)",5,5
+221280,"Shala","Ethiopia",2075,"Rift zone / Continental crust (>25 km)",0,0
+221290,"Corbetti","Ethiopia",2289,"Rift zone / Continental crust (>25 km)",2,2
+221291,"Bilate River Field","Ethiopia",1700,"Intraplate / Continental crust (>25 km)",0,0
+221294,"Northern Lake Abaya Volcanic Field","Ethiopia",1594,"Intraplate / Continental crust (>25 km)",0,0
+221320,"Korath Range","Ethiopia",912,"Rift zone / Intermediate crust (15-25 km)",0,0
+221330,"Mega Volcanic Field","Ethiopia",1500,"Rift zone / Intermediate crust (15-25 km)",0,0
+222001,"Lake Turkana North Island","Kenya",490,"Rift zone / Continental crust (>25 km)",0,0
+222010,"Lake Turkana Central Island","Kenya",518,"Rift zone / Continental crust (>25 km)",0,0
+222020,"Lake Turkana South Island","Kenya",800,"Rift zone / Continental crust (>25 km)",1,1
+222021,"Marsabit","Kenya",1707,"Rift zone / Continental crust (>25 km)",0,0
+222030,"Barrier, The","Kenya",1032,"Rift zone / Continental crust (>25 km)",10,10
+222040,"Namarunu","Kenya",817,"Rift zone / Continental crust (>25 km)",1,1
+222050,"Segererua Plateau","Kenya",699,"Rift zone / Continental crust (>25 km)",0,0
+222051,"Emuruangogolak","Kenya",1285,"Rift zone / Continental crust (>25 km)",8,8
+222052,"Silali","Kenya",1528,"Rift zone / Continental crust (>25 km)",3,3
+222053,"Paka","Kenya",1697,"Rift zone / Continental crust (>25 km)",1,1
+222054,"Korosi","Kenya",1446,"Rift zone / Continental crust (>25 km)",0,0
+222055,"Ol Kokwe","Kenya",1130,"Rift zone / Continental crust (>25 km)",0,0
+222056,"Nyambeni Hills","Kenya",750,"Rift zone / Continental crust (>25 km)",0,0
+222060,"Menengai","Kenya",2278,"Rift zone / Continental crust (>25 km)",2,2
+222070,"Homa Mountain","Kenya",1751,"Rift zone / Continental crust (>25 km)",0,0
+222071,"Elmenteita Badlands","Kenya",2126,"Rift zone / Continental crust (>25 km)",0,0
+222080,"Eburru, Ol Doinyo","Kenya",2856,"Rift zone / Continental crust (>25 km)",0,0
+222090,"Olkaria","Kenya",2434,"Rift zone / Continental crust (>25 km)",3,3
+222100,"Longonot","Kenya",2776,"Rift zone / Continental crust (>25 km)",3,3
+222110,"Suswa","Kenya",2356,"Rift zone / Continental crust (>25 km)",0,0
+222120,"Lengai, Ol Doinyo","Tanzania",2962,"Rift zone / Continental crust (>25 km)",26,26
+222130,"Chyulu Hills","Kenya",2188,"Rift zone / Continental crust (>25 km)",3,3
+222160,"Meru","Tanzania",4550,"Rift zone / Continental crust (>25 km)",4,4
+222161,"Igwisi Hills","Tanzania",1146,"Rift zone / Continental crust (>25 km)",1,1
+222164,"Ngozi","Tanzania",2614,"Rift zone / Continental crust (>25 km)",2,2
+222166,"Rungwe","Tanzania",2953,"Rift zone / Continental crust (>25 km)",3,3
+222170,"Kyejo","Tanzania",2176,"Rift zone / Continental crust (>25 km)",1,1
+223001,"Fort Portal","Uganda",1615,"Rift zone / Continental crust (>25 km)",2,2
+223002,"Kyatwa","Uganda",1430,"Rift zone / Continental crust (>25 km)",0,0
+223003,"Katwe-Kikorongo","Uganda",1067,"Rift zone / Continental crust (>25 km)",0,0
+223004,"Bunyaruguru","Uganda",1554,"Rift zone / Continental crust (>25 km)",0,0
+223005,"Katunga","Uganda",1707,"Rift zone / Continental crust (>25 km)",0,0
+223020,"Nyamulagira","DR Congo",3058,"Rift zone / Continental crust (>25 km)",48,48
+223030,"Nyiragongo","DR Congo",3470,"Rift zone / Continental crust (>25 km)",19,19
+223040,"Karisimbi","DR Congo-Rwanda",4490,"Rift zone / Continental crust (>25 km)",1,1
+223050,"Visoke","DR Congo-Rwanda",3696,"Rift zone / Continental crust (>25 km)",2,2
+223060,"Muhavura","Uganda-Rwanda",4103,"Rift zone / Continental crust (>25 km)",0,0
+223070,"Bufumbira","Uganda",2100,"Rift zone / Continental crust (>25 km)",0,0
+224002,"San Carlos","Equatorial Guinea",2260,"Intraplate / Continental crust (>25 km)",0,0
+224003,"San Joaquin","Equatorial Guinea",2009,"Intraplate / Continental crust (>25 km)",0,0
+224004,"Santa Isabel","Equatorial Guinea",2999,"Intraplate / Continental crust (>25 km)",3,3
+224010,"Cameroon","Cameroon",4095,"Intraplate / Continental crust (>25 km)",19,19
+224011,"Tombel Graben","Cameroon",500,"Intraplate / Continental crust (>25 km)",0,0
+224030,"Oku Volcanic Field","Cameroon",3011,"Intraplate / Continental crust (>25 km)",0,0
+225001,"Todra Volcanic Field","Niger",1780,"Intraplate / Continental crust (>25 km)",0,0
+225004,"Tahalra Volcanic Field","Algeria",1467,"Intraplate / Continental crust (>25 km)",0,0
+225005,"Atakor Volcanic Field","Algeria",2918,"Intraplate / Continental crust (>25 km)",0,0
+225006,"Manzaz Volcanic Field","Algeria",1672,"Intraplate / Continental crust (>25 km)",0,0
+225009,"Toh, Tarso","Chad",2000,"Intraplate / Continental crust (>25 km)",0,0
+225010,"Tousside, Tarso","Chad",3265,"Intraplate / Continental crust (>25 km)",0,0
+225020,"Voon, Tarso","Chad",3100,"Intraplate / Continental crust (>25 km)",0,0
+225021,"Koussi, Emi","Chad",3415,"Intraplate / Continental crust (>25 km)",0,0
+225030,"Marra, Jebel","Sudan",3042,"Intraplate / Continental crust (>25 km)",1,1
+225040,"Kutum Volcanic Field","Sudan",1779,"Intraplate / Continental crust (>25 km)",0,0
+225050,"Meidob Volcanic Field","Sudan",2000,"Intraplate / Continental crust (>25 km)",6,6
+225060,"Bayuda Volcanic Field","Sudan",670,"Intraplate / Continental crust (>25 km)",1,1
+231001,"Ash Shaam, Harrat","Syria-Jordan-Saudi Arabia",1100,"Intraplate / Continental crust (>25 km)",1,1
+231040,"Lunayyir, Harrat","Saudi Arabia",1370,"Intraplate / Continental crust (>25 km)",1,1
+231050,"Ithnayn, Harrat","Saudi Arabia",1625,"Intraplate / Continental crust (>25 km)",0,0
+231060,"Khaybar, Harrat","Saudi Arabia",2093,"Intraplate / Continental crust (>25 km)",1,1
+231070,"Rahat, Harrat","Saudi Arabia",1744,"Intraplate / Continental crust (>25 km)",2,2
+231071,"Kishb, Harrat","Saudi Arabia",1475,"Intraplate / Continental crust (>25 km)",0,0
+231072,"Birk, Harrat al","Saudi Arabia",587,"Intraplate / Continental crust (>25 km)",0,0
+231080,"Yar, Jabal","Saudi Arabia",305,"Intraplate / Continental crust (>25 km)",1,1
+231090,"Arhab, Harra of","Yemen",3100,"Intraplate / Continental crust (>25 km)",2,2
+231110,"Haylan, Jabal","Yemen",1550,"Intraplate / Continental crust (>25 km)",1,1
+231120,"Dhamar, Harras of","Yemen",3500,"Intraplate / Continental crust (>25 km)",0,0
+231160,"Sawad, Harra Es-","Yemen",1737,"Intraplate / Continental crust (>25 km)",1,1
+231170,"Balhaf-Bir Ali Volcanic Field","Yemen",604,"Intraplate / Continental crust (>25 km)",0,0
+231180,"Bir Borhut","Yemen",464,"Intraplate / Continental crust (>25 km)",0,0
+232010,"Damavand","Iran",5670,"Intraplate / Continental crust (>25 km)",1,1
+233001,"Grille, La","Comoros",1087,"Intraplate / Oceanic crust (< 15 km)",0,0
+233005,"Mayotte","France",660,"Intraplate / Oceanic crust (< 15 km)",4,4
+233010,"Karthala","Comoros",2361,"Intraplate / Oceanic crust (< 15 km)",34,34
+233011,"Ambre-Bobaomby","Madagascar",1475,"Intraplate / Continental crust (>25 km)",0,0
+233012,"Nosy-Be","Madagascar",214,"Intraplate / Continental crust (>25 km)",0,0
+233013,"Ankaizina Field","Madagascar",2878,"Intraplate / Continental crust (>25 km)",0,0
+233014,"Itasy Volcanic Field","Madagascar",1800,"Intraplate / Continental crust (>25 km)",2,2
+233015,"Vakinankaratra","Madagascar",2644,"Intraplate / Continental crust (>25 km)",0,0
+233020,"Fournaise, Piton de la","France",2632,"Intraplate / Oceanic crust (< 15 km)",197,197
+234000,"Boomerang Seamount","France",-650,"Rift zone / Oceanic crust (< 15 km)",1,1
+234001,"Amsterdam Island","France",881,"Rift zone / Oceanic crust (< 15 km)",0,0
+234002,"St. Paul","France",268,"Rift zone / Oceanic crust (< 15 km)",1,1
+234010,"Heard","Australia",2745,"Intraplate / Oceanic crust (< 15 km)",11,11
+234011,"McDonald Islands","Australia",230,"Intraplate / Oceanic crust (< 15 km)",4,4
+234020,"Kerguelen Islands","France",1840,"Intraplate / Oceanic crust (< 15 km)",0,0
+234030,"Est, Ile de l'","France",1090,"Rift zone / Oceanic crust (< 15 km)",0,0
+234040,"Possession, Ile de la","France",934,"Rift zone / Oceanic crust (< 15 km)",0,0
+234050,"Cochons, Ile aux","France",775,"Rift zone / Oceanic crust (< 15 km)",0,0
+234060,"Prince Edward Island","South Africa",672,"Rift zone / Oceanic crust (< 15 km)",0,0
+234070,"Marion Island","South Africa",1230,"Rift zone / Oceanic crust (< 15 km)",2,2
+241020,"Auckland Volcanic Field","New Zealand",260,"Intraplate / Continental crust (>25 km)",2,2
+241021,"Tuhua/Mayor Island","New Zealand",355,"Subduction zone / Continental crust (>25 km)",2,2
+241030,"Taranaki","New Zealand",2518,"Subduction zone / Continental crust (>25 km)",42,42
+241040,"Whakaari/White Island","New Zealand",294,"Subduction zone / Continental crust (>25 km)",37,37
+241050,"Okataina","New Zealand",1111,"Subduction zone / Continental crust (>25 km)",31,31
+241070,"Taupo","New Zealand",760,"Subduction zone / Continental crust (>25 km)",25,25
+241080,"Tongariro","New Zealand",1978,"Subduction zone / Continental crust (>25 km)",76,76
+241100,"Ruapehu","New Zealand",2797,"Subduction zone / Continental crust (>25 km)",64,64
+241101,"Clark","New Zealand",-860,"Subduction zone / Oceanic crust (< 15 km)",0,0
+241102,"Tangaroa","New Zealand",-600,"Subduction zone / Oceanic crust (< 15 km)",0,0
+241110,"Rumble V","New Zealand",-400,"Subduction zone / Oceanic crust (< 15 km)",0,0
+241120,"Rumble IV","New Zealand",-500,"Subduction zone / Oceanic crust (< 15 km)",0,0
+241130,"Rumble III","New Zealand",-220,"Subduction zone / Oceanic crust (< 15 km)",6,6
+241131,"Rumble II West","New Zealand",-1200,"Subduction zone / Oceanic crust (< 15 km)",0,0
+241140,"Healy","New Zealand",-980,"Subduction zone / Oceanic crust (< 15 km)",1,1
+241150,"Brothers","New Zealand",-1350,"Subduction zone / Oceanic crust (< 15 km)",0,0
+242001,"Wright","New Zealand",-900,"Subduction zone / Oceanic crust (< 15 km)",0,0
+242005,"Havre Seamount","New Zealand",-897,"Subduction zone / Oceanic crust (< 15 km)",1,1
+242010,"Curtis Island","New Zealand",47,"Subduction zone / Oceanic crust (< 15 km)",0,0
+242021,"Macauley","New Zealand",238,"Subduction zone / Oceanic crust (< 15 km)",1,1
+242022,"Giggenbach","New Zealand",-65,"Subduction zone / Oceanic crust (< 15 km)",0,0
+242030,"Raoul Island","New Zealand",516,"Subduction zone / Oceanic crust (< 15 km)",17,17
+242050,"Monowai","New Zealand",-132,"Subduction zone / Oceanic crust (< 15 km)",25,25
+243001,"Unnamed","Tonga",-385,"Subduction zone / Oceanic crust (< 15 km)",0,0
+243010,"Unnamed","Tonga",-68,"Subduction zone / Oceanic crust (< 15 km)",2,2
+243011,"Unnamed","Tonga",-65,"Subduction zone / Oceanic crust (< 15 km)",0,0
+243030,"Unnamed","Tonga",-296,"Subduction zone / Oceanic crust (< 15 km)",4,4
+243040,"Hunga Tonga-Hunga Ha'apai","Tonga",114,"Subduction zone / Oceanic crust (< 15 km)",7,7
+243050,"Fonuafo'ou","Tonga",-17,"Subduction zone / Oceanic crust (< 15 km)",5,5
+243060,"Tofua","Tonga",515,"Subduction zone / Oceanic crust (< 15 km)",11,11
+243061,"Kao","Tonga",1009,"Subduction zone / Oceanic crust (< 15 km)",1,1
+243070,"Lateiki","Tonga",43,"Subduction zone / Oceanic crust (< 15 km)",10,10
+243080,"Home Reef","Tonga",-10,"Subduction zone / Oceanic crust (< 15 km)",7,7
+243090,"Late","Tonga",540,"Subduction zone / Oceanic crust (< 15 km)",2,2
+243091,"Unnamed","Tonga",-40,"Subduction zone / Oceanic crust (< 15 km)",2,2
+243100,"Fonualei","Tonga",188,"Subduction zone / Oceanic crust (< 15 km)",6,6
+243101,"Tafahi","Tonga",546,"Subduction zone / Oceanic crust (< 15 km)",0,0
+243102,"Curacoa","Tonga",-33,"Subduction zone / Oceanic crust (< 15 km)",2,2
+243110,"Niuafo'ou","Tonga",260,"Subduction zone / Oceanic crust (< 15 km)",8,8
+243111,"Dugong","Tonga",-1170,NA,0,0
+243112,"Lobster","Tonga",-1500,NA,0,0
+243120,"Tafu-Maka","Tonga",-1400,"Rift zone / Oceanic crust (< 15 km)",1,1
+243130,"West Mata","Tonga",-1174,"Subduction zone / Oceanic crust (< 15 km)",1,1
+243140,"Niuatahi","Tonga",-1270,"Subduction zone / Oceanic crust (< 15 km)",0,0
+244000,"Vailulu'u","United States",-592,"Subduction zone / Oceanic crust (< 15 km)",3,3
+244001,"Ta'u","United States",931,"Subduction zone / Oceanic crust (< 15 km)",0,0
+244010,"Ofu-Olosega","United States",639,"Subduction zone / Oceanic crust (< 15 km)",1,1
+244020,"Tutuila","United States",653,"Subduction zone / Oceanic crust (< 15 km)",1,1
+244021,"Malumalu","United States",-145,"Intraplate / Oceanic crust (< 15 km)",0,0
+244030,"Upolu","Samoa",1100,"Subduction zone / Oceanic crust (< 15 km)",0,0
+244040,"Savaii","Samoa",1858,"Subduction zone / Oceanic crust (< 15 km)",12,12
+245010,"Taveuni","Fiji",1241,"Subduction zone / Crustal thickness unknown",34,34
+245030,"Nabukelevu","Fiji",791,"Subduction zone / Crustal thickness unknown",3,3
+250010,"St. Andrew Strait","Papua New Guinea",270,"Subduction zone / Oceanic crust (< 15 km)",4,4
+250030,"Central Bismarck Sea","Papua New Guinea",-1300,"Rift zone / Continental crust (>25 km)",1,1
+251001,"Blup Blup","Papua New Guinea",402,"Subduction zone / Continental crust (>25 km)",0,0
+251002,"Kadovar","Papua New Guinea",365,"Subduction zone / Continental crust (>25 km)",1,1
+251010,"Bam","Papua New Guinea",685,"Subduction zone / Continental crust (>25 km)",17,17
+251020,"Manam","Papua New Guinea",1807,"Subduction zone / Continental crust (>25 km)",41,41
+251030,"Karkar","Papua New Guinea",1839,"Subduction zone / Continental crust (>25 km)",11,11
+251041,"Hankow Reef","Papua New Guinea",-5,"Subduction zone / Continental crust (>25 km)",0,0
+251050,"Long Island","Papua New Guinea",1280,"Subduction zone / Continental crust (>25 km)",11,11
+251060,"Umboi","Papua New Guinea",1335,"Subduction zone / Continental crust (>25 km)",0,0
+251070,"Ritter Island","Papua New Guinea",75,"Subduction zone / Continental crust (>25 km)",8,8
+251080,"Sakar","Papua New Guinea",947,"Subduction zone / Continental crust (>25 km)",0,0
+252010,"Langila","Papua New Guinea",1330,"Subduction zone / Continental crust (>25 km)",26,26
+252040,"Dakataua","Papua New Guinea",408,"Subduction zone / Continental crust (>25 km)",3,3
+252050,"Bola","Papua New Guinea",1116,"Subduction zone / Continental crust (>25 km)",0,0
+252060,"Garua Harbour","Papua New Guinea",565,"Subduction zone / Continental crust (>25 km)",0,0
+252070,"Krummel-Garbuna-Welcker","Papua New Guinea",564,"Subduction zone / Continental crust (>25 km)",4,4
+252071,"Lolo","Papua New Guinea",796,"Subduction zone / Continental crust (>25 km)",0,0
+252080,"Witori","Papua New Guinea",724,"Subduction zone / Continental crust (>25 km)",19,19
+252090,"Sulu Range","Papua New Guinea",610,"Subduction zone / Continental crust (>25 km)",0,0
+252100,"Hargy","Papua New Guinea",1148,"Subduction zone / Continental crust (>25 km)",2,2
+252110,"Bamus","Papua New Guinea",2248,"Subduction zone / Continental crust (>25 km)",4,4
+252120,"Ulawun","Papua New Guinea",2334,"Subduction zone / Continental crust (>25 km)",47,47
+252130,"Lolobau","Papua New Guinea",878,"Subduction zone / Continental crust (>25 km)",3,3
+252140,"Rabaul","Papua New Guinea",688,"Subduction zone / Continental crust (>25 km)",19,19
+252150,"Tavui","Papua New Guinea",200,"Subduction zone / Continental crust (>25 km)",1,1
+253010,"Lamington","Papua New Guinea",1680,"Subduction zone / Continental crust (>25 km)",3,3
+253011,"Hydrographers Range","Papua New Guinea",1915,"Subduction zone / Continental crust (>25 km)",0,0
+253021,"Managlase Plateau","Papua New Guinea",1342,"Subduction zone / Continental crust (>25 km)",0,0
+253030,"Victory","Papua New Guinea",1832,"Subduction zone / Continental crust (>25 km)",1,1
+253040,"Sessagara Hills","Papua New Guinea",493,"Subduction zone / Continental crust (>25 km)",1,1
+253041,"Goodenough","Papua New Guinea",220,"Subduction zone / Continental crust (>25 km)",0,0
+253050,"Iamalele","Papua New Guinea",194,"Subduction zone / Continental crust (>25 km)",0,0
+253060,"Dawson Strait Group","Papua New Guinea",500,"Subduction zone / Continental crust (>25 km)",1,1
+255010,"Balbi","Papua New Guinea",2715,"Subduction zone / Crustal thickness unknown",0,0
+255011,"Billy Mitchell","Papua New Guinea",1544,"Subduction zone / Crustal thickness unknown",2,2
+255020,"Bagana","Papua New Guinea",1855,"Subduction zone / Crustal thickness unknown",25,25
+255021,"Takuan Group","Papua New Guinea",2210,"Subduction zone / Crustal thickness unknown",0,0
+255030,"Loloru","Papua New Guinea",1887,"Subduction zone / Crustal thickness unknown",6,6
+255050,"Simbo","Solomon Islands",335,"Subduction zone / Crustal thickness unknown",1,1
+255052,"Kana Keoki","Solomon Islands",-700,"Subduction zone / Crustal thickness unknown",0,0
+255053,"Coleman Seamount","Solomon Islands",-717,"Subduction zone / Crustal thickness unknown",0,0
+255060,"Kavachi","Solomon Islands",-20,"Subduction zone / Crustal thickness unknown",31,31
+255061,"New Georgia at 8.9°S","Solomon Islands",-240,"Subduction zone / Crustal thickness unknown",0,0
+255070,"Savo","Solomon Islands",455,"Subduction zone / Crustal thickness unknown",3,3
+256010,"Tinakula","Solomon Islands",796,"Subduction zone / Crustal thickness unknown",24,24
+257001,"Motlav","Vanuatu",411,"Subduction zone / Intermediate crust (15-25 km)",0,0
+257010,"Suretamatai","Vanuatu",921,"Subduction zone / Intermediate crust (15-25 km)",3,3
+257020,"Gaua","Vanuatu",729,"Subduction zone / Intermediate crust (15-25 km)",18,18
+257030,"Ambae","Vanuatu",1496,"Subduction zone / Intermediate crust (15-25 km)",11,11
+257040,"Ambrym","Vanuatu",1334,"Subduction zone / Intermediate crust (15-25 km)",57,57
+257050,"Lopevi","Vanuatu",1413,"Subduction zone / Intermediate crust (15-25 km)",30,30
+257060,"East Epi","Vanuatu",833,"Subduction zone / Intermediate crust (15-25 km)",9,9
+257070,"Kuwae","Vanuatu",-2,"Subduction zone / Intermediate crust (15-25 km)",12,12
+257081,"Nguna-Emau","Vanuatu",589,"Subduction zone / Intermediate crust (15-25 km)",0,0
+257090,"Traitor's Head","Vanuatu",817,"Subduction zone / Intermediate crust (15-25 km)",1,1
+257100,"Yasur","Vanuatu",361,"Subduction zone / Intermediate crust (15-25 km)",3,3
+258001,"Gemini-Oscostar","Vanuatu",-33,"Rift zone / Oceanic crust (< 15 km)",1,1
+258010,"Matthew Island","France - claimed by Vanuatu",177,"Subduction zone / Crustal thickness unknown",3,3
+258020,"Hunter Island","France - claimed by Vanuatu",297,"Subduction zone / Crustal thickness unknown",4,4
+259010,"Newer Volcanics Province","Australia",1011,"Intraplate / Continental crust (>25 km)",4,4
+259804,"McBride Volcanic Province","Australia",1020,"Intraplate / Continental crust (>25 km)",1,1
+260001,"Narcondum","India",710,"Subduction zone / Continental crust (>25 km)",0,0
+260010,"Barren Island","India",354,"Subduction zone / Continental crust (>25 km)",18,18
+261030,"Peuet Sague","Indonesia",2785,"Subduction zone / Continental crust (>25 km)",7,7
+261050,"Telong, Bur ni","Indonesia",2617,"Subduction zone / Continental crust (>25 km)",5,5
+261070,"Singkut","Indonesia",2181,"Subduction zone / Continental crust (>25 km)",1,1
+261080,"Sinabung","Indonesia",2460,"Subduction zone / Continental crust (>25 km)",5,5
+261090,"Toba","Indonesia",2157,"Subduction zone / Continental crust (>25 km)",0,0
+261120,"Sorikmarapi","Indonesia",2145,"Subduction zone / Continental crust (>25 km)",7,7
+261121,"Malintang","Indonesia",1983,"Subduction zone / Continental crust (>25 km)",0,0
+261130,"Talakmau","Indonesia",2919,"Subduction zone / Continental crust (>25 km)",0,0
+261140,"Marapi","Indonesia",2885,"Subduction zone / Continental crust (>25 km)",68,68
+261150,"Tandikat-Singgalang","Indonesia",2854,"Subduction zone / Continental crust (>25 km)",3,3
+261160,"Talang","Indonesia",2575,"Subduction zone / Continental crust (>25 km)",13,13
+261170,"Kerinci","Indonesia",3800,"Subduction zone / Continental crust (>25 km)",38,38
+261180,"Sumbing","Indonesia",2507,"Subduction zone / Continental crust (>25 km)",2,2
+261220,"Kaba","Indonesia",1940,"Subduction zone / Continental crust (>25 km)",11,11
+261230,"Dempo","Indonesia",3142,"Subduction zone / Continental crust (>25 km)",32,32
+261231,"Patah","Indonesia",2836,"Subduction zone / Continental crust (>25 km)",0,0
+261251,"Ranau","Indonesia",1854,"Subduction zone / Continental crust (>25 km)",0,0
+261270,"Suoh","Indonesia",1000,"Subduction zone / Continental crust (>25 km)",2,2
+262000,"Krakatau","Indonesia",285,"Subduction zone / Continental crust (>25 km)",57,57
+263010,"Pulosari","Indonesia",1324,"Subduction zone / Continental crust (>25 km)",0,0
+263020,"Karang","Indonesia",1768,"Subduction zone / Continental crust (>25 km)",0,0
+263040,"Perbakti-Gagak","Indonesia",1726,"Subduction zone / Continental crust (>25 km)",7,7
+263050,"Salak","Indonesia",2218,"Subduction zone / Continental crust (>25 km)",5,5
+263060,"Gede-Pangrango","Indonesia",3026,"Subduction zone / Continental crust (>25 km)",22,22
+263070,"Patuha","Indonesia",2422,"Subduction zone / Continental crust (>25 km)",0,0
+263090,"Tangkuban Parahu","Indonesia",2084,"Subduction zone / Continental crust (>25 km)",21,21
+263100,"Papandayan","Indonesia",2665,"Subduction zone / Continental crust (>25 km)",4,4
+263110,"Kendang","Indonesia",2594,"Subduction zone / Continental crust (>25 km)",0,0
+263130,"Guntur","Indonesia",2251,"Subduction zone / Continental crust (>25 km)",24,24
+263131,"Tampomas","Indonesia",1690,"Subduction zone / Continental crust (>25 km)",0,0
+263140,"Galunggung","Indonesia",2168,"Subduction zone / Continental crust (>25 km)",6,6
+263150,"Talagabodas","Indonesia",2201,"Subduction zone / Continental crust (>25 km)",0,0
+263170,"Ciremai","Indonesia",3039,"Subduction zone / Continental crust (>25 km)",6,6
+263180,"Slamet","Indonesia",3428,"Subduction zone / Continental crust (>25 km)",42,42
+263200,"Dieng Volcanic Complex","Indonesia",2565,"Subduction zone / Continental crust (>25 km)",30,30
+263210,"Sundoro","Indonesia",3147,"Subduction zone / Continental crust (>25 km)",11,11
+263220,"Sumbing","Indonesia",3371,"Subduction zone / Continental crust (>25 km)",1,1
+263240,"Merbabu","Indonesia",3118,"Subduction zone / Continental crust (>25 km)",2,2
+263250,"Merapi","Indonesia",2910,"Subduction zone / Continental crust (>25 km)",106,106
+263260,"Lawu","Indonesia",3265,"Subduction zone / Continental crust (>25 km)",1,1
+263270,"Wilis","Indonesia",2563,"Subduction zone / Continental crust (>25 km)",0,0
+263280,"Kelud","Indonesia",1730,"Subduction zone / Continental crust (>25 km)",37,37
+263281,"Kawi-Butak","Indonesia",2651,"Subduction zone / Continental crust (>25 km)",0,0
+263290,"Arjuno-Welirang","Indonesia",3343,"Subduction zone / Continental crust (>25 km)",2,2
+263291,"Penanggungan","Indonesia",1631,"Subduction zone / Continental crust (>25 km)",0,0
+263300,"Semeru","Indonesia",3657,"Subduction zone / Continental crust (>25 km)",63,63
+263310,"Tengger Caldera","Indonesia",2329,"Subduction zone / Continental crust (>25 km)",67,67
+263320,"Lamongan","Indonesia",1641,"Subduction zone / Continental crust (>25 km)",41,41
+263330,"Iyang-Argapura","Indonesia",3088,"Subduction zone / Continental crust (>25 km)",0,0
+263340,"Raung","Indonesia",3260,"Subduction zone / Continental crust (>25 km)",70,70
+263350,"Ijen","Indonesia",2769,"Subduction zone / Continental crust (>25 km)",9,9
+263351,"Baluran","Indonesia",1247,"Subduction zone / Continental crust (>25 km)",0,0
+264001,"Buyan-Bratan","Indonesia",2244,"Subduction zone / Continental crust (>25 km)",0,0
+264010,"Batur","Indonesia",1711,"Subduction zone / Continental crust (>25 km)",25,25
+264020,"Agung","Indonesia",2997,"Subduction zone / Continental crust (>25 km)",4,4
+264030,"Rinjani","Indonesia",3726,"Subduction zone / Continental crust (>25 km)",19,19
+264040,"Tambora","Indonesia",2850,"Subduction zone / Continental crust (>25 km)",7,7
+264050,"Sangeang Api","Indonesia",1912,"Subduction zone / Continental crust (>25 km)",20,20
+264060,"Sano, Wai","Indonesia",1319,"Subduction zone / Continental crust (>25 km)",0,0
+264071,"Ranakah","Indonesia",2288,"Subduction zone / Continental crust (>25 km)",2,2
+264080,"Inierie","Indonesia",2245,"Subduction zone / Crustal thickness unknown",1,1
+264090,"Inielika","Indonesia",1559,"Subduction zone / Crustal thickness unknown",2,2
+264100,"Ebulobo","Indonesia",2096,"Subduction zone / Crustal thickness unknown",7,7
+264110,"Iya","Indonesia",618,"Subduction zone / Crustal thickness unknown",8,8
+264140,"Kelimutu","Indonesia",1639,"Subduction zone / Crustal thickness unknown",3,3
+264150,"Paluweh","Indonesia",875,"Subduction zone / Crustal thickness unknown",9,9
+264160,"Egon","Indonesia",1661,"Subduction zone / Crustal thickness unknown",4,4
+264180,"Lewotobi","Indonesia",1703,"Subduction zone / Crustal thickness unknown",23,23
+264220,"Iliboleng","Indonesia",1659,"Subduction zone / Crustal thickness unknown",20,20
+264230,"Lewotolok","Indonesia",1431,"Subduction zone / Crustal thickness unknown",11,11
+264240,"Ililabalekan","Indonesia",1018,"Subduction zone / Crustal thickness unknown",0,0
+264250,"Iliwerung","Indonesia",583,"Subduction zone / Crustal thickness unknown",14,14
+264260,"Tara, Batu","Indonesia",633,"Subduction zone / Oceanic crust (< 15 km)",2,2
+264270,"Sirung","Indonesia",1347,"Subduction zone / Crustal thickness unknown",11,11
+265040,"Wurlali","Indonesia",868,"Subduction zone / Oceanic crust (< 15 km)",1,1
+265050,"Teon","Indonesia",728,"Subduction zone / Oceanic crust (< 15 km)",5,5
+265060,"Nila","Indonesia",781,"Subduction zone / Oceanic crust (< 15 km)",4,4
+265070,"Serua","Indonesia",608,"Subduction zone / Oceanic crust (< 15 km)",10,10
+265080,"Manuk","Indonesia",257,"Subduction zone / Oceanic crust (< 15 km)",0,0
+265090,"Banda Api","Indonesia",596,"Subduction zone / Oceanic crust (< 15 km)",23,23
+266010,"Colo","Indonesia",404,"Subduction zone / Continental crust (>25 km)",3,3
+266020,"Ambang","Indonesia",1795,"Subduction zone / Continental crust (>25 km)",2,2
+266030,"Soputan","Indonesia",1785,"Subduction zone / Continental crust (>25 km)",41,41
+266100,"Lokon-Empung","Indonesia",1580,"Subduction zone / Continental crust (>25 km)",30,30
+266110,"Mahawu","Indonesia",1299,"Subduction zone / Continental crust (>25 km)",7,7
+266120,"Klabat","Indonesia",1968,"Subduction zone / Continental crust (>25 km)",0,0
+266130,"Tangkoko-Duasudara","Indonesia",1334,"Subduction zone / Continental crust (>25 km)",7,7
+267010,"Ruang","Indonesia",703,"Subduction zone / Oceanic crust (< 15 km)",13,13
+267020,"Karangetang","Indonesia",1797,"Subduction zone / Oceanic crust (< 15 km)",59,59
+267030,"Banua Wuhu","Indonesia",-5,"Subduction zone / Oceanic crust (< 15 km)",6,6
+267040,"Awu","Indonesia",1318,"Subduction zone / Oceanic crust (< 15 km)",16,16
+268001,"Tarakan","Indonesia",317,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268010,"Dukono","Indonesia",1273,"Subduction zone / Oceanic crust (< 15 km)",5,5
+268020,"Tobaru","Indonesia",1035,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268030,"Ibu","Indonesia",1325,"Subduction zone / Oceanic crust (< 15 km)",5,5
+268040,"Gamkonora","Indonesia",1635,"Subduction zone / Oceanic crust (< 15 km)",13,13
+268050,"Todoko-Ranu","Indonesia",979,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268051,"Jailolo","Indonesia",993,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268052,"Hiri","Indonesia",630,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268060,"Gamalama","Indonesia",1714,"Subduction zone / Oceanic crust (< 15 km)",67,67
+268061,"Kie Matubu","Indonesia",1713,"Subduction zone / Oceanic crust (< 15 km)",2,2
+268062,"Mare","Indonesia",308,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268063,"Moti","Indonesia",927,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268070,"Kie Besi","Indonesia",1357,"Subduction zone / Oceanic crust (< 15 km)",8,8
+268071,"Tigalalu","Indonesia",422,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268072,"Amasing","Indonesia",1006,"Subduction zone / Oceanic crust (< 15 km)",0,0
+268073,"Bibinoi","Indonesia",932,"Subduction zone / Oceanic crust (< 15 km)",0,0
+271011,"Melebingoy","Philippines",1824,"Subduction zone / Continental crust (>25 km)",3,3
+271020,"Matutum","Philippines",2262,"Subduction zone / Continental crust (>25 km)",3,3
+271031,"Leonard Range","Philippines",1080,"Subduction zone / Continental crust (>25 km)",3,3
+271040,"Makaturing","Philippines",1818,"Subduction zone / Continental crust (>25 km)",2,2
+271060,"Ragang","Philippines",2790,"Subduction zone / Continental crust (>25 km)",8,8
+271070,"Musuan","Philippines",610,"Subduction zone / Continental crust (>25 km)",0,0
+271080,"Camiguin","Philippines",1552,"Subduction zone / Continental crust (>25 km)",4,4
+272020,"Kanlaon","Philippines",2422,"Subduction zone / Continental crust (>25 km)",31,31
+272050,"Cabalían","Philippines",912,"Subduction zone / Continental crust (>25 km)",1,1
+272080,"Biliran","Philippines",1301,"Subduction zone / Continental crust (>25 km)",1,1
+273010,"Bulusan","Philippines",1535,"Subduction zone / Continental crust (>25 km)",25,25
+273030,"Mayon","Philippines",2462,"Subduction zone / Continental crust (>25 km)",65,65
+273041,"Iriga","Philippines",1138,"Subduction zone / Continental crust (>25 km)",0,0
+273042,"Isarog","Philippines",1966,"Subduction zone / Continental crust (>25 km)",1,1
+273050,"Banahaw","Philippines",2158,"Subduction zone / Continental crust (>25 km)",0,0
+273060,"San Pablo Volcanic Field","Philippines",1090,"Subduction zone / Continental crust (>25 km)",1,1
+273070,"Taal","Philippines",311,"Subduction zone / Continental crust (>25 km)",39,39
+273083,"Pinatubo","Philippines",1486,"Subduction zone / Continental crust (>25 km)",9,9
+273090,"Cagua","Philippines",1133,"Subduction zone / Continental crust (>25 km)",1,1
+274010,"Camiguin de Babuyanes","Philippines",712,"Subduction zone / Crustal thickness unknown",1,1
+274020,"Didicas","Philippines",228,"Subduction zone / Crustal thickness unknown",5,5
+274030,"Babuyan Claro","Philippines",1064,"Subduction zone / Crustal thickness unknown",7,7
+274060,"Iraya","Philippines",1009,"Subduction zone / Crustal thickness unknown",3,3
+275001,"Hainan Volcanic Field","China",196,"Intraplate / Continental crust (>25 km)",2,2
+275020,"Ly Son Group","Vietnam",157,"Intraplate / Continental crust (>25 km)",0,0
+275060,"Cendres, Ile des","Vietnam",-20,"Intraplate / Continental crust (>25 km)",1,1
+275080,"Popa","Burma (Myanmar)",1518,"Intraplate / Continental crust (>25 km)",1,1
+275110,"Tengchong","China",2865,"Intraplate / Continental crust (>25 km)",1,1
+281031,"Kueishantao","Taiwan",361,"Subduction zone / Continental crust (>25 km)",2,2
+281032,"Tatun Volcanic Group","Taiwan",1120,"Subduction zone / Continental crust (>25 km)",2,2
+282010,"Submarine Volcano NNE of Iriomotejima","Japan",-200,"Subduction zone / Oceanic crust (< 15 km)",1,1
+282020,"Io-Torishima","Japan",212,"Subduction zone / Oceanic crust (< 15 km)",9,9
+282021,"Yokoatejima","Japan",495,"Subduction zone / Oceanic crust (< 15 km)",1,1
+282022,"Akusekijima","Japan",555,"Subduction zone / Oceanic crust (< 15 km)",0,0
+282030,"Suwanosejima","Japan",796,"Subduction zone / Oceanic crust (< 15 km)",24,24
+282040,"Nakanoshima","Japan",979,"Subduction zone / Oceanic crust (< 15 km)",1,1
+282043,"Kuchinoshima","Japan",628,"Subduction zone / Oceanic crust (< 15 km)",4,4
+282050,"Kuchinoerabujima","Japan",657,"Subduction zone / Oceanic crust (< 15 km)",29,29
+282060,"Kikai","Japan",704,"Subduction zone / Oceanic crust (< 15 km)",27,27
+282070,"Ata","Japan",924,"Subduction zone / Continental crust (>25 km)",23,23
+282080,"Aira","Japan",1117,"Subduction zone / Continental crust (>25 km)",48,48
+282081,"Yonemaru-Sumiyoshiike","Japan",40,"Subduction zone / Continental crust (>25 km)",2,2
+282090,"Kirishimayama","Japan",1700,"Subduction zone / Continental crust (>25 km)",78,78
+282091,"Fukue","Japan",315,"Subduction zone / Continental crust (>25 km)",1,1
+282100,"Unzendake","Japan",1483,"Subduction zone / Continental crust (>25 km)",11,11
+282110,"Asosan","Japan",1592,"Subduction zone / Continental crust (>25 km)",172,172
+282120,"Kujusan","Japan",1791,"Subduction zone / Continental crust (>25 km)",13,13
+282130,"Yufu-Tsurumi","Japan",1584,"Subduction zone / Continental crust (>25 km)",3,3
+283001,"Abu","Japan",641,"Subduction zone / Continental crust (>25 km)",1,1
+283002,"Sanbesan","Japan",1126,"Subduction zone / Continental crust (>25 km)",3,3
+283010,"Izu-Tobu","Japan",1406,"Subduction zone / Continental crust (>25 km)",6,6
+283020,"Hakoneyama","Japan",1438,"Subduction zone / Continental crust (>25 km)",8,8
+283030,"Fujisan","Japan",3776,"Subduction zone / Continental crust (>25 km)",58,58
+283031,"Yokodake","Japan",2480,"Subduction zone / Continental crust (>25 km)",2,2
+283040,"Ontakesan","Japan",3067,"Subduction zone / Continental crust (>25 km)",4,4
+283050,"Hakusan","Japan",2702,"Subduction zone / Continental crust (>25 km)",20,20
+283060,"Norikuradake","Japan",3026,"Subduction zone / Continental crust (>25 km)",3,3
+283069,"Akandanayama","Japan",2109,NA,0,0
+283070,"Yakedake","Japan",2455,"Subduction zone / Continental crust (>25 km)",38,38
+283080,"Midagahara","Japan",2621,"Subduction zone / Continental crust (>25 km)",5,5
+283090,"Niigata-Yakeyama","Japan",2400,"Subduction zone / Continental crust (>25 km)",20,20
+283100,"Myokosan","Japan",2454,"Subduction zone / Continental crust (>25 km)",10,10
+283110,"Asamayama","Japan",2568,"Subduction zone / Continental crust (>25 km)",129,129
+283120,"Kusatsu-Shiranesan","Japan",2165,"Subduction zone / Continental crust (>25 km)",28,28
+283121,"Shiga","Japan",2041,"Subduction zone / Continental crust (>25 km)",0,0
+283122,"Harunasan","Japan",1449,"Subduction zone / Continental crust (>25 km)",3,3
+283130,"Akagisan","Japan",1828,"Subduction zone / Continental crust (>25 km)",0,0
+283131,"Hiuchigatake","Japan",2356,"Subduction zone / Continental crust (>25 km)",2,2
+283140,"Nikko-Shiranesan","Japan",2578,"Subduction zone / Continental crust (>25 km)",11,11
+283141,"Nantaisan","Japan",2486,"Subduction zone / Continental crust (>25 km)",1,1
+283142,"Omanago Group","Japan",2341,"Subduction zone / Continental crust (>25 km)",1,1
+283143,"Takaharayama","Japan",1795,"Subduction zone / Continental crust (>25 km)",1,1
+283150,"Nasudake","Japan",1915,"Subduction zone / Continental crust (>25 km)",20,20
+283151,"Numazawa","Japan",835,"Subduction zone / Continental crust (>25 km)",1,1
+283160,"Bandaisan","Japan",1816,"Subduction zone / Continental crust (>25 km)",11,11
+283170,"Adatarayama","Japan",1728,"Subduction zone / Continental crust (>25 km)",12,12
+283180,"Azumayama","Japan",1949,"Subduction zone / Continental crust (>25 km)",19,19
+283190,"Zaozan [Zaosan]","Japan",1841,"Subduction zone / Continental crust (>25 km)",43,43
+283191,"Hijiori","Japan",552,"Subduction zone / Continental crust (>25 km)",0,0
+283200,"Naruko","Japan",470,"Subduction zone / Continental crust (>25 km)",5,5
+283210,"Kurikomayama","Japan",1627,"Subduction zone / Continental crust (>25 km)",7,7
+283220,"Chokaisan","Japan",2236,"Subduction zone / Continental crust (>25 km)",14,14
+283230,"Akita-Komagatake","Japan",1637,"Subduction zone / Continental crust (>25 km)",18,18
+283240,"Iwatesan","Japan",2038,"Subduction zone / Continental crust (>25 km)",26,26
+283250,"Hachimantai","Japan",1613,"Subduction zone / Continental crust (>25 km)",2,2
+283260,"Akita-Yakeyama","Japan",1366,"Subduction zone / Continental crust (>25 km)",16,16
+283262,"Megata","Japan",160,"Subduction zone / Continental crust (>25 km)",2,2
+283270,"Iwakisan","Japan",1625,"Subduction zone / Continental crust (>25 km)",13,13
+283271,"Towada","Japan",1011,"Subduction zone / Continental crust (>25 km)",8,8
+283280,"Hakkodasan","Japan",1585,"Subduction zone / Continental crust (>25 km)",7,7
+283290,"Osorezan","Japan",878,"Subduction zone / Continental crust (>25 km)",1,1
+284010,"Izu-Oshima","Japan",746,"Subduction zone / Oceanic crust (< 15 km)",99,99
+284011,"Toshima","Japan",508,"Subduction zone / Oceanic crust (< 15 km)",1,1
+284020,"Niijima","Japan",432,"Subduction zone / Oceanic crust (< 15 km)",5,5
+284030,"Kozushima","Japan",572,"Subduction zone / Oceanic crust (< 15 km)",4,4
+284040,"Miyakejima","Japan",775,"Subduction zone / Oceanic crust (< 15 km)",39,39
+284041,"Mikurajima","Japan",851,"Subduction zone / Oceanic crust (< 15 km)",2,2
+284042,"Kurose Hole","Japan",-114,"Subduction zone / Oceanic crust (< 15 km)",0,0
+284050,"Hachijojima","Japan",854,"Subduction zone / Oceanic crust (< 15 km)",18,18
+284060,"Aogashima","Japan",423,"Subduction zone / Oceanic crust (< 15 km)",7,7
+284061,"Kita-Bayonnaise","Japan",-360,"Subduction zone / Oceanic crust (< 15 km)",0,0
+284070,"Myojinsho","Japan",11,"Subduction zone / Oceanic crust (< 15 km)",15,15
+284080,"Sumisujima","Japan",136,"Subduction zone / Oceanic crust (< 15 km)",2,2
+284090,"Izu-Torishima","Japan",394,"Subduction zone / Oceanic crust (< 15 km)",6,6
+284091,"Sofugan","Japan",99,"Subduction zone / Oceanic crust (< 15 km)",0,0
+284093,"Suiyo Seamount","Japan",-991,"Subduction zone / Crustal thickness unknown",0,0
+284094,"Mokuyo Seamount","Japan",-933,"Subduction zone / Crustal thickness unknown",0,0
+284095,"Doyo Seamount","Japan",-590,"Subduction zone / Crustal thickness unknown",0,0
+284096,"Nishinoshima","Japan",100,"Subduction zone / Crustal thickness unknown",7,7
+284097,"Kaikata Seamount","Japan",-165,"Subduction zone / Crustal thickness unknown",0,0
+284100,"Kaitoku Seamount","Japan",-95,"Subduction zone / Crustal thickness unknown",2,2
+284110,"Kita-Ioto","Japan",792,"Subduction zone / Crustal thickness unknown",4,4
+284120,"Ioto","Japan",169,"Subduction zone / Crustal thickness unknown",26,26
+284121,"Kita-Fukutokutai","Japan",-73,"Subduction zone / Crustal thickness unknown",1,1
+284130,"Fukutoku-Oka-no-Ba","Japan",-29,"Subduction zone / Crustal thickness unknown",10,10
+284131,"Minami-Hiyoshi","Japan",-107,"Subduction zone / Crustal thickness unknown",1,1
+284132,"Nikko","Japan",-392,"Subduction zone / Crustal thickness unknown",0,0
+284133,"Fukujin","United States",-217,"Subduction zone / Crustal thickness unknown",3,3
+284134,"Kasuga 1","United States",-598,"Subduction zone / Crustal thickness unknown",1,1
+284135,"Kasuga 2","United States",-274,"Subduction zone / Crustal thickness unknown",0,0
+284136,"NW Eifuku","United States",-1535,"Subduction zone / Crustal thickness unknown",0,0
+284137,"Daikoku","United States",-323,"Subduction zone / Crustal thickness unknown",0,0
+284140,"Farallon de Pajaros","United States",337,"Subduction zone / Crustal thickness unknown",14,14
+284141,"Ahyi","United States",-75,"Subduction zone / Crustal thickness unknown",11,11
+284142,"Supply Reef","United States",-8,"Subduction zone / Crustal thickness unknown",0,0
+284143,"Maug Islands","United States",227,"Subduction zone / Crustal thickness unknown",0,0
+284150,"Asuncion","United States",857,"Subduction zone / Crustal thickness unknown",1,1
+284160,"Agrigan","United States",965,"Subduction zone / Crustal thickness unknown",1,1
+284170,"Pagan","United States",570,"Subduction zone / Crustal thickness unknown",21,21
+284180,"Alamagan","United States",744,"Subduction zone / Crustal thickness unknown",2,2
+284190,"Guguan","United States",232,"Subduction zone / Crustal thickness unknown",1,1
+284191,"Zealandia Bank","United States",0,"Subduction zone / Crustal thickness unknown",0,0
+284192,"Sarigan","United States",538,"Subduction zone / Crustal thickness unknown",0,0
+284193,"South Sarigan Seamount","United States",-184,"Subduction zone / Crustal thickness unknown",1,1
+284200,"Anatahan","United States",790,"Subduction zone / Crustal thickness unknown",4,4
+284201,"East Diamante","United States",-127,"Subduction zone / Crustal thickness unknown",0,0
+284202,"Ruby","United States",-174,"Subduction zone / Crustal thickness unknown",3,3
+284210,"Esmeralda Bank","United States",-74,"Subduction zone / Crustal thickness unknown",0,0
+284211,"NW Rota-1","United States",-517,"Subduction zone / Crustal thickness unknown",1,1
+284220,"Forecast Seamount","United States",-1456,"Subduction zone / Crustal thickness unknown",0,0
+284230,"Seamount X","United States",-1230,"Subduction zone / Crustal thickness unknown",0,0
+284305,"Mariana Back-Arc Segment at 15.5°N","United States",-4100,"Subduction zone / Oceanic crust (< 15 km)",1,1
+285010,"Oshima-Oshima","Japan",732,"Subduction zone / Continental crust (>25 km)",5,5
+285011,"Esan","Japan",618,"Subduction zone / Continental crust (>25 km)",8,8
+285020,"Hokkaido-Komagatake","Japan",1131,"Subduction zone / Continental crust (>25 km)",19,19
+285030,"Toya","Japan",733,"Subduction zone / Continental crust (>25 km)",13,13
+285031,"Niseko","Japan",1308,"Subduction zone / Continental crust (>25 km)",1,1
+285032,"Yoteizan","Japan",1888,"Subduction zone / Continental crust (>25 km)",2,2
+285034,"Kuttara","Japan",549,"Subduction zone / Continental crust (>25 km)",3,3
+285040,"Shikotsu","Japan",1320,"Subduction zone / Continental crust (>25 km)",41,41
+285041,"Rishirizan","Japan",1721,"Subduction zone / Continental crust (>25 km)",1,1
+285050,"Tokachidake","Japan",2077,"Subduction zone / Continental crust (>25 km)",27,27
+285060,"Taisetsuzan","Japan",2291,"Subduction zone / Continental crust (>25 km)",5,5
+285061,"Maruyama","Japan",2013,"Subduction zone / Continental crust (>25 km)",2,2
+285070,"Akan","Japan",1499,"Subduction zone / Continental crust (>25 km)",35,35
+285080,"Kussharo","Japan",574,"Subduction zone / Continental crust (>25 km)",6,6
+285081,"Mashu","Japan",857,"Subduction zone / Continental crust (>25 km)",7,7
+285082,"Rausudake","Japan",1660,"Subduction zone / Continental crust (>25 km)",5,5
+285083,"Tenchozan","Japan",1046,NA,0,0
+285090,"Shiretoko-Iozan","Japan",1562,"Subduction zone / Continental crust (>25 km)",6,6
+290010,"Tomariyama [Golovnin]","Japan - administered by Russia",535,"Subduction zone / Intermediate crust (15-25 km)",3,3
+290020,"Raususan [Mendeleev]","Japan - administered by Russia",882,"Subduction zone / Intermediate crust (15-25 km)",2,2
+290021,"Ruruidake [Smirnov]","Japan - administered by Russia",1447,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290030,"Chachadake [Tiatia]","Japan - administered by Russia",1822,"Subduction zone / Intermediate crust (15-25 km)",4,4
+290040,"Berutarubesan [Berutarube]","Japan - administered by Russia",1221,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290041,"Moekeshiwan [Lvinaya Past]","Japan - administered by Russia",495,"Subduction zone / Intermediate crust (15-25 km)",1,1
+290050,"Etorofu-Atosanupuri [Atosanupuri]","Japan - administered by Russia",1206,"Subduction zone / Intermediate crust (15-25 km)",2,2
+290060,"Hitokappu Volcano Group [Bogatyr Ridge]","Japan - administered by Russia",1610,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290061,"Unnamed","Japan - administered by Russia",-195,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290070,"Etorofu-Yakeyama [Grozny Group]","Japan - administered by Russia",1158,"Subduction zone / Intermediate crust (15-25 km)",7,7
+290072,"Odamoisan [Tebenkov]","Japan - administered by Russia",1208,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290080,"Sashiusudake [Baransky]","Japan - administered by Russia",1125,"Subduction zone / Intermediate crust (15-25 km)",3,3
+290090,"Chirippusan [Chirip]","Japan - administered by Russia",1587,"Subduction zone / Intermediate crust (15-25 km)",2,2
+290100,"Moyorodake [Medvezhia]","Japan - administered by Russia",1124,"Subduction zone / Intermediate crust (15-25 km)",5,5
+290110,"Rakkibetsudake [Demon]","Japan - administered by Russia",1205,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290111,"Ivao Group","Russia",1426,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290112,"Rudakov","Russia",532,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290113,"Tri Sestry","Russia",998,"Subduction zone / Intermediate crust (15-25 km)",0,0
+290120,"Kolokol Group","Russia",1328,"Subduction zone / Intermediate crust (15-25 km)",9,9
+290150,"Chirpoi","Russia",742,"Subduction zone / Oceanic crust (< 15 km)",9,9
+290160,"Unnamed","Russia",-502,"Subduction zone / Oceanic crust (< 15 km)",1,1
+290161,"Milna","Russia",1504,"Subduction zone / Oceanic crust (< 15 km)",5,5
+290180,"Zavaritzki Caldera","Russia",612,"Subduction zone / Oceanic crust (< 15 km)",2,2
+290190,"Prevo Peak","Russia",1360,"Subduction zone / Oceanic crust (< 15 km)",2,2
+290191,"Uratman","Russia",678,"Subduction zone / Oceanic crust (< 15 km)",0,0
+290200,"Ketoi","Russia",1172,"Subduction zone / Oceanic crust (< 15 km)",3,3
+290210,"Ushishur","Russia",357,"Subduction zone / Oceanic crust (< 15 km)",4,4
+290211,"Srednii","Russia",36,"Subduction zone / Oceanic crust (< 15 km)",0,0
+290220,"Rasshua","Russia",956,"Subduction zone / Oceanic crust (< 15 km)",2,2
+290240,"Sarychev Peak","Russia",1496,"Subduction zone / Intermediate crust (15-25 km)",20,20
+290250,"Raikoke","Russia",551,"Subduction zone / Intermediate crust (15-25 km)",4,4
+290260,"Chirinkotan","Russia",724,"Subduction zone / Intermediate crust (15-25 km)",11,11
+290270,"Ekarma","Russia",1170,"Subduction zone / Intermediate crust (15-25 km)",3,3
+290290,"Sinarka","Russia",911,"Subduction zone / Intermediate crust (15-25 km)",4,4
+290300,"Kharimkotan","Russia",1145,"Subduction zone / Intermediate crust (15-25 km)",6,6
+290310,"Tao-Rusyr Caldera","Russia",1272,"Subduction zone / Intermediate crust (15-25 km)",2,2
+290320,"Nemo Peak","Russia",1018,"Subduction zone / Intermediate crust (15-25 km)",11,11
+290331,"Shirinki","Russia",761,"Subduction zone / Continental crust (>25 km)",0,0
+290340,"Fuss Peak","Russia",1742,"Subduction zone / Continental crust (>25 km)",9,9
+290350,"Karpinsky Group","Russia",1326,"Subduction zone / Continental crust (>25 km)",1,1
+290360,"Chikurachki","Russia",1781,"Subduction zone / Continental crust (>25 km)",28,28
+290370,"Vernadskii Ridge","Russia",1183,"Subduction zone / Continental crust (>25 km)",0,0
+290380,"Ebeko","Russia",1103,"Subduction zone / Continental crust (>25 km)",20,20
+290390,"Alaid","Russia",2285,"Subduction zone / Continental crust (>25 km)",15,15
+300010,"Kambalny","Russia",2116,"Subduction zone / Continental crust (>25 km)",2,2
+300020,"Koshelev","Russia",1822,"Subduction zone / Continental crust (>25 km)",4,4
+300021,"Yavinsky","Russia",646,"Subduction zone / Continental crust (>25 km)",1,1
+300022,"Diky Greben","Russia",1040,"Subduction zone / Continental crust (>25 km)",4,4
+300023,"Kurile Lake","Russia",81,"Subduction zone / Continental crust (>25 km)",2,2
+300030,"Iliinsky","Russia",1555,"Subduction zone / Continental crust (>25 km)",6,6
+300040,"Zheltovsky","Russia",1926,"Subduction zone / Continental crust (>25 km)",4,4
+300050,"Ksudach","Russia",1007,"Subduction zone / Continental crust (>25 km)",15,15
+300052,"Olkoviy Volcanic Group","Russia",681,"Subduction zone / Continental crust (>25 km)",0,0
+300053,"Khodutka","Russia",2039,"Subduction zone / Continental crust (>25 km)",3,3
+300058,"Asacha","Russia",1910,"Subduction zone / Continental crust (>25 km)",0,0
+300059,"Visokiy","Russia",1227,"Subduction zone / Continental crust (>25 km)",0,0
+300060,"Mutnovsky","Russia",2288,"Subduction zone / Continental crust (>25 km)",45,45
+300070,"Gorely","Russia",1799,"Subduction zone / Continental crust (>25 km)",50,50
+300080,"Opala","Russia",2439,"Subduction zone / Continental crust (>25 km)",4,4
+300082,"Tolmachev Dol","Russia",1021,"Subduction zone / Continental crust (>25 km)",2,2
+300083,"Vilyuchinsky","Russia",2173,"Subduction zone / Continental crust (>25 km)",1,1
+300084,"Barkhatnaya Sopka","Russia",874,"Subduction zone / Continental crust (>25 km)",1,1
+300090,"Koryaksky","Russia",3430,"Subduction zone / Continental crust (>25 km)",7,7
+300100,"Avachinsky","Russia",2717,"Subduction zone / Continental crust (>25 km)",55,55
+300110,"Dzenzursky","Russia",2285,"Subduction zone / Continental crust (>25 km)",0,0
+300120,"Zhupanovsky","Russia",2899,"Subduction zone / Continental crust (>25 km)",16,16
+300121,"Veer","Russia",520,"Subduction zone / Continental crust (>25 km)",1,1
+300122,"Kostakan","Russia",1150,"Subduction zone / Continental crust (>25 km)",6,6
+300123,"Bakening","Russia",2278,"Subduction zone / Continental crust (>25 km)",5,5
+300124,"Zavaritsky","Russia",1567,"Subduction zone / Continental crust (>25 km)",2,2
+300125,"Akademia Nauk","Russia",1180,"Subduction zone / Continental crust (>25 km)",4,4
+300130,"Karymsky","Russia",1513,"Subduction zone / Continental crust (>25 km)",54,54
+300140,"Maly Semyachik","Russia",1527,"Subduction zone / Continental crust (>25 km)",23,23
+300150,"Bolshoi Semiachik","Russia",1720,"Subduction zone / Continental crust (>25 km)",2,2
+300160,"Taunshits","Russia",2301,"Subduction zone / Continental crust (>25 km)",2,2
+300170,"Uzon","Russia",1617,"Subduction zone / Continental crust (>25 km)",4,4
+300180,"Kikhpinych","Russia",1515,"Subduction zone / Continental crust (>25 km)",8,8
+300190,"Krasheninnikov","Russia",1816,"Subduction zone / Continental crust (>25 km)",31,31
+300200,"Kronotsky","Russia",3482,"Subduction zone / Continental crust (>25 km)",3,3
+300210,"Gamchen","Russia",2539,"Subduction zone / Continental crust (>25 km)",2,2
+300220,"Komarov","Russia",2065,"Subduction zone / Continental crust (>25 km)",2,2
+300221,"Vysoky","Russia",2129,"Subduction zone / Continental crust (>25 km)",1,1
+300230,"Kizimen","Russia",2334,"Subduction zone / Continental crust (>25 km)",11,11
+300240,"Tolbachik","Russia",3611,"Subduction zone / Continental crust (>25 km)",58,58
+300241,"Udina","Russia",2886,"Subduction zone / Continental crust (>25 km)",0,0
+300242,"Zimina","Russia",3057,"Subduction zone / Continental crust (>25 km)",0,0
+300250,"Bezymianny","Russia",2882,"Subduction zone / Continental crust (>25 km)",69,69
+300251,"Kamen","Russia",4585,"Subduction zone / Continental crust (>25 km)",0,0
+300260,"Klyuchevskoy","Russia",4754,"Subduction zone / Continental crust (>25 km)",111,111
+300261,"Ushkovsky","Russia",3943,"Subduction zone / Continental crust (>25 km)",3,3
+300270,"Sheveluch","Russia",3283,"Subduction zone / Continental crust (>25 km)",102,102
+300271,"Piip","Russia",-300,"Subduction zone / Intermediate crust (15-25 km)",1,1
+300272,"Khangar","Russia",1967,"Subduction zone / Continental crust (>25 km)",10,10
+300273,"Cherpuk Group","Russia",1868,"Subduction zone / Continental crust (>25 km)",1,1
+300280,"Ichinsky","Russia",3596,"Subduction zone / Continental crust (>25 km)",14,14
+300360,"Bolshoi-Kekuknaysky","Russia",1401,"Subduction zone / Continental crust (>25 km)",1,1
+300450,"Alney-Chashakondzha","Russia",2570,"Subduction zone / Continental crust (>25 km)",3,3
+300511,"Shisheika","Russia",355,"Subduction zone / Continental crust (>25 km)",1,1
+300512,"Terpuk","Russia",765,"Subduction zone / Continental crust (>25 km)",1,1
+300520,"Sedanka Lava Field","Russia",1399,"Subduction zone / Continental crust (>25 km)",1,1
+300550,"Gorny Institute","Russia",2125,"Subduction zone / Continental crust (>25 km)",3,3
+300551,"Kinenin","Russia",583,"Subduction zone / Continental crust (>25 km)",1,1
+300552,"Bliznetsy","Russia",265,"Subduction zone / Continental crust (>25 km)",1,1
+300560,"Titila","Russia",1523,"Subduction zone / Continental crust (>25 km)",1,1
+300590,"Elovsky","Russia",1381,"Subduction zone / Continental crust (>25 km)",1,1
+300650,"Nylgimelkin","Russia",1764,"Subduction zone / Continental crust (>25 km)",1,1
+300671,"Spokoiny","Russia",2171,"Subduction zone / Continental crust (>25 km)",1,1
+300680,"Ostry","Russia",2552,"Subduction zone / Continental crust (>25 km)",1,1
+300700,"Severny","Russia",1936,"Subduction zone / Continental crust (>25 km)",1,1
+302030,"Udokan Plateau","Russia",2180,"Rift zone / Continental crust (>25 km)",5,5
+302040,"Vitim Volcanic Field","Russia",1250,"Unknown",0,0
+302050,"Tunkin Depression","Russia",1200,"Rift zone / Continental crust (>25 km)",0,0
+302060,"Jom-Bolok","Russia",2047,"Rift zone / Continental crust (>25 km)",1,1
+302070,"Azas Plateau","Russia",2765,"Rift zone / Continental crust (>25 km)",0,0
+303010,"Taryatu-Chulutu","Mongolia",2326,"Intraplate / Continental crust (>25 km)",1,1
+303020,"Khanuy Gol","Mongolia",1886,"Intraplate / Continental crust (>25 km)",0,0
+303040,"Dariganga Volcanic Field","Mongolia",1778,"Intraplate / Continental crust (>25 km)",0,0
+304030,"Ashikule Volcanic Field","China",5090,"Intraplate / Continental crust (>25 km)",1,1
+305010,"Honggeertu","China",1605,"Intraplate / Continental crust (>25 km)",0,0
+305011,"Arxan-Chaihe","China",1677,"Intraplate / Continental crust (>25 km)",1,1
+305020,"Keluo Group","China",670,"Intraplate / Continental crust (>25 km)",0,0
+305030,"Wudalianchi","China",597,"Intraplate / Continental crust (>25 km)",2,2
+305040,"Jingpohu","China",1000,"Intraplate / Continental crust (>25 km)",3,3
+305050,"Longgang Group","China",1000,"Intraplate / Continental crust (>25 km)",1,1
+305060,"Changbaishan","China-North Korea",2744,"Intraplate / Continental crust (>25 km)",7,7
+306020,"Ch'uga-ryong","North Korea-South Korea",452,"Intraplate / Continental crust (>25 km)",0,0
+306030,"Ulleungdo","South Korea",984,"Intraplate / Continental crust (>25 km)",3,3
+306040,"Halla","South Korea",1919,"Intraplate / Continental crust (>25 km)",4,4
+311010,"Buldir","United States",656,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311020,"Kiska","United States",1220,"Subduction zone / Intermediate crust (15-25 km)",4,4
+311030,"Segula","United States",1160,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311040,"Davidof","United States",328,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311050,"Little Sitkin","United States",1174,"Subduction zone / Intermediate crust (15-25 km)",2,2
+311060,"Semisopochnoi","United States",1221,"Subduction zone / Intermediate crust (15-25 km)",6,6
+311070,"Gareloi","United States",1573,"Subduction zone / Intermediate crust (15-25 km)",12,12
+311080,"Tanaga","United States",1806,"Subduction zone / Intermediate crust (15-25 km)",6,6
+311090,"Takawangha","United States",1449,"Subduction zone / Intermediate crust (15-25 km)",1,1
+311100,"Bobrof","United States",738,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311110,"Kanaga","United States",1307,"Subduction zone / Intermediate crust (15-25 km)",18,18
+311111,"Moffett","United States",1196,"Subduction zone / Intermediate crust (15-25 km)",3,3
+311120,"Great Sitkin","United States",1740,"Subduction zone / Intermediate crust (15-25 km)",9,9
+311130,"Kasatochi","United States",314,"Subduction zone / Intermediate crust (15-25 km)",2,2
+311140,"Koniuji","United States",273,"Subduction zone / Intermediate crust (15-25 km)",3,3
+311160,"Atka Volcanic Complex","United States",1518,"Subduction zone / Intermediate crust (15-25 km)",11,11
+311180,"Seguam","United States",1054,"Subduction zone / Intermediate crust (15-25 km)",11,11
+311190,"Amukta","United States",1066,"Subduction zone / Intermediate crust (15-25 km)",5,5
+311200,"Chagulak","United States",1142,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311210,"Yunaska","United States",550,"Subduction zone / Intermediate crust (15-25 km)",3,3
+311220,"Herbert","United States",1280,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311230,"Carlisle","United States",1620,"Subduction zone / Intermediate crust (15-25 km)",2,2
+311240,"Cleveland","United States",1730,"Subduction zone / Intermediate crust (15-25 km)",22,22
+311241,"Tana","United States",1170,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311250,"Uliaga","United States",888,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311260,"Kagamil","United States",893,"Subduction zone / Intermediate crust (15-25 km)",1,1
+311270,"Vsevidof","United States",2149,"Subduction zone / Intermediate crust (15-25 km)",3,3
+311280,"Recheschnoi","United States",1984,"Subduction zone / Intermediate crust (15-25 km)",0,0
+311290,"Okmok","United States",1073,"Subduction zone / Intermediate crust (15-25 km)",18,18
+311300,"Bogoslof","United States",150,"Subduction zone / Intermediate crust (15-25 km)",9,9
+311310,"Makushin","United States",1800,"Subduction zone / Intermediate crust (15-25 km)",19,19
+311320,"Akutan","United States",1303,"Subduction zone / Intermediate crust (15-25 km)",40,40
+311340,"Westdahl","United States",1563,"Subduction zone / Continental crust (>25 km)",7,7
+311350,"Fisher","United States",1112,"Subduction zone / Continental crust (>25 km)",6,6
+311360,"Shishaldin","United States",2857,"Subduction zone / Continental crust (>25 km)",40,40
+311380,"Roundtop","United States",1871,"Subduction zone / Continental crust (>25 km)",1,1
+311390,"Amak","United States",547,"Subduction zone / Continental crust (>25 km)",3,3
+312010,"Frosty","United States",1728,"Subduction zone / Continental crust (>25 km)",0,0
+312011,"Dutton","United States",1465,"Subduction zone / Continental crust (>25 km)",0,0
+312020,"Emmons Lake Volcanic Center","United States",1534,"Subduction zone / Continental crust (>25 km)",0,0
+312030,"Pavlof","United States",2493,"Subduction zone / Continental crust (>25 km)",44,44
+312040,"Pavlof Sister","United States",2142,"Subduction zone / Continental crust (>25 km)",0,0
+312050,"Dana","United States",1354,"Subduction zone / Continental crust (>25 km)",1,1
+312055,"Stepovak Bay Group","United States",1633,"Subduction zone / Continental crust (>25 km)",0,0
+312060,"Kupreanof","United States",1895,"Subduction zone / Continental crust (>25 km)",0,0
+312070,"Veniaminof","United States",2507,"Subduction zone / Continental crust (>25 km)",24,24
+312080,"Black Peak","United States",1032,"Subduction zone / Continental crust (>25 km)",1,1
+312090,"Aniakchak","United States",1341,"Subduction zone / Continental crust (>25 km)",16,16
+312100,"Yantarni","United States",1345,"Subduction zone / Continental crust (>25 km)",1,1
+312110,"Chiginagak","United States",2221,"Subduction zone / Continental crust (>25 km)",2,2
+312120,"Kialagvik","United States",1677,"Subduction zone / Continental crust (>25 km)",0,0
+312130,"Ugashik-Peulik","United States",1474,"Subduction zone / Continental crust (>25 km)",4,4
+312131,"Ukinrek Maars","United States",91,"Subduction zone / Continental crust (>25 km)",2,2
+312132,"Unnamed","United States",402,"Subduction zone / Continental crust (>25 km)",0,0
+312140,"Martin","United States",1863,"Subduction zone / Continental crust (>25 km)",4,4
+312150,"Mageik","United States",2165,"Subduction zone / Continental crust (>25 km)",8,8
+312160,"Trident","United States",1864,"Subduction zone / Continental crust (>25 km)",15,15
+312170,"Katmai","United States",2047,"Subduction zone / Continental crust (>25 km)",1,1
+312180,"Novarupta","United States",841,"Subduction zone / Continental crust (>25 km)",1,1
+312190,"Griggs","United States",2317,"Subduction zone / Continental crust (>25 km)",1,1
+312200,"Snowy Mountain","United States",2162,"Subduction zone / Continental crust (>25 km)",1,1
+312210,"Denison","United States",2287,"Subduction zone / Continental crust (>25 km)",0,0
+312220,"Steller","United States",2279,"Subduction zone / Continental crust (>25 km)",0,0
+312230,"Kukak","United States",2043,"Subduction zone / Continental crust (>25 km)",0,0
+312250,"Kaguyak","United States",901,"Subduction zone / Continental crust (>25 km)",2,2
+312260,"Fourpeaked","United States",2105,"Subduction zone / Continental crust (>25 km)",1,1
+312270,"Douglas","United States",2140,"Subduction zone / Continental crust (>25 km)",0,0
+313010,"Augustine","United States",1218,"Subduction zone / Continental crust (>25 km)",22,22
+313020,"Iliamna","United States",3053,"Subduction zone / Continental crust (>25 km)",7,7
+313030,"Redoubt","United States",3108,"Subduction zone / Continental crust (>25 km)",97,97
+313040,"Spurr","United States",3374,"Subduction zone / Continental crust (>25 km)",7,7
+313050,"Hayes","United States",3034,"Subduction zone / Continental crust (>25 km)",3,3
+314010,"St. Paul Island","United States",203,"Intraplate / Continental crust (>25 km)",1,1
+314030,"Ingakslugwat Hills","United States",190,"Intraplate / Continental crust (>25 km)",0,0
+314040,"St. Michael","United States",715,"Intraplate / Continental crust (>25 km)",0,0
+314060,"Imuruk Lake","United States",610,"Intraplate / Continental crust (>25 km)",1,1
+315001,"Buzzard Creek","United States",830,"Subduction zone / Continental crust (>25 km)",1,1
+315020,"Wrangell","United States",4278,"Intraplate / Continental crust (>25 km)",5,5
+315030,"Churchill","United States",5005,"Intraplate / Continental crust (>25 km)",2,2
+315040,"Edgecumbe","United States",970,"Intraplate / Continental crust (>25 km)",4,4
+315050,"Duncan Canal","United States",15,"Subduction zone / Continental crust (>25 km)",0,0
+315060,"Tlevak Strait-Suemez Island","United States",50,"Subduction zone / Continental crust (>25 km)",0,0
+315070,"Behm Canal-Rudyerd Bay","United States",500,"Intraplate / Continental crust (>25 km)",0,0
+320010,"Fort Selkirk","Canada",1239,"Intraplate / Continental crust (>25 km)",0,0
+320020,"Alligator Lake","Canada",2217,"Intraplate / Continental crust (>25 km)",0,0
+320030,"Atlin Volcanic Field","Canada",1880,"Intraplate / Continental crust (>25 km)",0,0
+320031,"Tuya Volcanic Field","Canada",2123,"Intraplate / Continental crust (>25 km)",0,0
+320040,"Heart Peaks","Canada",2012,"Intraplate / Continental crust (>25 km)",0,0
+320050,"Level Mountain","Canada",2164,"Intraplate / Continental crust (>25 km)",0,0
+320060,"Edziza","Canada",2786,"Intraplate / Continental crust (>25 km)",4,4
+320070,"Spectrum Range","Canada",2430,"Intraplate / Continental crust (>25 km)",0,0
+320080,"Hoodoo Mountain","Canada",1850,"Intraplate / Continental crust (>25 km)",1,1
+320090,"Iskut-Unuk River Cones","Canada",1880,"Intraplate / Continental crust (>25 km)",7,7
+320100,"Tseax River Cone","Canada",612,"Intraplate / Continental crust (>25 km)",2,2
+320110,"Crow Lagoon","Canada",335,"Intraplate / Continental crust (>25 km)",0,0
+320120,"Milbanke Sound Group","Canada",233,"Intraplate / Continental crust (>25 km)",0,0
+320140,"Nazko","Canada",1238,"Intraplate / Continental crust (>25 km)",1,1
+320150,"Wells Gray-Clearwater","Canada",950,"Intraplate / Continental crust (>25 km)",2,2
+320160,"Silverthrone","Canada",2860,"Subduction zone / Continental crust (>25 km)",0,0
+320170,"Bridge River Cones","Canada",2500,"Subduction zone / Continental crust (>25 km)",0,0
+320180,"Meager","Canada",2680,"Subduction zone / Continental crust (>25 km)",1,1
+320190,"Garibaldi Lake","Canada",2316,"Subduction zone / Continental crust (>25 km)",0,0
+320200,"Garibaldi","Canada",2678,"Subduction zone / Continental crust (>25 km)",1,1
+320811,"Cayley Volcanic Field","Canada",2375,"Subduction zone / Continental crust (>25 km)",0,0
+321010,"Baker","United States",3285,"Subduction zone / Continental crust (>25 km)",11,11
+321020,"Glacier Peak","United States",3213,"Subduction zone / Continental crust (>25 km)",6,6
+321030,"Rainier","United States",4392,"Subduction zone / Continental crust (>25 km)",20,20
+321040,"Adams","United States",3742,"Subduction zone / Continental crust (>25 km)",15,15
+321050,"St. Helens","United States",2549,"Subduction zone / Continental crust (>25 km)",40,40
+321060,"West Crater","United States",1329,"Subduction zone / Continental crust (>25 km)",2,2
+321070,"Indian Heaven","United States",1806,"Subduction zone / Continental crust (>25 km)",1,1
+322010,"Hood","United States",3426,"Subduction zone / Continental crust (>25 km)",5,5
+322020,"Jefferson","United States",3199,"Subduction zone / Continental crust (>25 km)",2,2
+322030,"Blue Lake Crater","United States",1136,"Subduction zone / Continental crust (>25 km)",1,1
+322040,"Sand Mountain Field","United States",1664,"Subduction zone / Continental crust (>25 km)",2,2
+322060,"Belknap","United States",2094,"Subduction zone / Continental crust (>25 km)",4,4
+322070,"Three Sisters","United States",3159,"Subduction zone / Continental crust (>25 km)",6,6
+322090,"Bachelor","United States",2763,"Subduction zone / Continental crust (>25 km)",1,1
+322100,"Davis Lake","United States",2163,"Subduction zone / Continental crust (>25 km)",1,1
+322110,"Newberry","United States",2434,"Subduction zone / Continental crust (>25 km)",11,11
+322120,"Devils Garden","United States",1698,"Rift zone / Continental crust (>25 km)",0,0
+322150,"Cinnamon Butte","United States",1958,"Subduction zone / Continental crust (>25 km)",0,0
+322160,"Crater Lake","United States",2487,"Subduction zone / Continental crust (>25 km)",5,5
+322170,"Diamond Craters","United States",1435,"Rift zone / Continental crust (>25 km)",1,1
+322190,"Jordan Craters","United States",1473,"Rift zone / Continental crust (>25 km)",1,1
+323010,"Shasta","United States",4317,"Subduction zone / Continental crust (>25 km)",22,22
+323020,"Medicine Lake","United States",2412,"Subduction zone / Continental crust (>25 km)",9,9
+323080,"Lassen Volcanic Center","United States",3187,"Subduction zone / Continental crust (>25 km)",5,5
+323100,"Clear Lake Volcanic Field","United States",1439,"Subduction zone / Continental crust (>25 km)",0,0
+323110,"Mono Lake Volcanic Field","United States",2121,"Rift zone / Continental crust (>25 km)",4,4
+323120,"Mono-Inyo Craters","United States",2796,"Rift zone / Continental crust (>25 km)",13,13
+323150,"Mammoth Mountain","United States",3369,"Rift zone / Continental crust (>25 km)",2,2
+323160,"Ubehebe Craters","United States",752,"Rift zone / Continental crust (>25 km)",1,1
+323200,"Salton Buttes","United States",-40,"Rift zone / Continental crust (>25 km)",3,3
+324010,"Black Butte Crater Lava Field","United States",1478,"Rift zone / Continental crust (>25 km)",1,1
+324020,"Craters of the Moon","United States",2005,"Rift zone / Continental crust (>25 km)",14,14
+324030,"Wapi Lava Field","United States",1597,"Rift zone / Continental crust (>25 km)",1,1
+324040,"Hell's Half Acre","United States",1632,"Rift zone / Continental crust (>25 km)",1,1
+326010,"Soda Lakes","United States",1251,"Rift zone / Continental crust (>25 km)",0,0
+327040,"Markagunt Plateau","United States",2840,"Rift zone / Continental crust (>25 km)",1,1
+327050,"Black Rock Desert","United States",1800,"Rift zone / Continental crust (>25 km)",1,1
+327110,"Carrizozo","United States",1731,"Rift zone / Continental crust (>25 km)",1,1
+327120,"Zuni-Bandera","United States",2550,"Rift zone / Continental crust (>25 km)",2,2
+327812,"Red Hill-Quemado","United States",2300,"Rift zone / Continental crust (>25 km)",3,3
+328010,"Dotsero","United States",2230,"Rift zone / Continental crust (>25 km)",1,1
+329010,"Uinkaret Field","United States",1555,"Rift zone / Continental crust (>25 km)",1,1
+329020,"San Francisco Volcanic Field","United States",3850,"Rift zone / Continental crust (>25 km)",1,1
+331005,"West Valley Segment","Canada",-2550,"Rift zone / Intermediate crust (15-25 km)",0,0
+331010,"Endeavour Segment","Canada",-2050,"Rift zone / Oceanic crust (< 15 km)",2,2
+331011,"Cobb Segment","Canada",-2100,"Rift zone / Oceanic crust (< 15 km)",1,1
+331020,"CoAxial Segment","Undersea Features",-2400,"Rift zone / Oceanic crust (< 15 km)",2,2
+331021,"Axial Seamount","Undersea Features",-1410,"Rift zone / Oceanic crust (< 15 km)",12,12
+331030,"Cleft Segment","Undersea Features",-2140,"Rift zone / Oceanic crust (< 15 km)",3,3
+331031,"North Gorda Ridge Segment","United States",-3000,"Rift zone / Oceanic crust (< 15 km)",3,3
+331032,"Jackson Segment","United States",-3100,"Rift zone / Oceanic crust (< 15 km)",0,0
+331040,"Escanaba Segment","United States",-1700,"Rift zone / Oceanic crust (< 15 km)",1,1
+331060,"East Blanco Depression","Undersea Features",-3000,"Rift zone / Intermediate crust (15-25 km)",0,0
+332000,"Kama'ehuakanaloa","United States",-975,"Intraplate / Oceanic crust (< 15 km)",4,4
+332010,"Kilauea","United States",1222,"Intraplate / Oceanic crust (< 15 km)",75,75
+332020,"Mauna Loa","United States",4170,"Intraplate / Oceanic crust (< 15 km)",110,110
+332030,"Mauna Kea","United States",4205,"Intraplate / Oceanic crust (< 15 km)",6,6
+332040,"Hualalai","United States",2523,"Intraplate / Oceanic crust (< 15 km)",22,22
+332060,"Haleakala","United States",3055,"Intraplate / Oceanic crust (< 15 km)",40,40
+333010,"Teahitia","France",-1743,"Intraplate / Oceanic crust (< 15 km)",4,4
+333020,"Rocard","France",-2515,"Intraplate / Oceanic crust (< 15 km)",3,3
+333030,"Moua Pihaa","France",-312,"Intraplate / Oceanic crust (< 15 km)",2,2
+333040,"Mehetia","France",389,"Intraplate / Oceanic crust (< 15 km)",0,0
+333050,"Adams Seamount","United Kingdom",-39,"Intraplate / Oceanic crust (< 15 km)",4,4
+333060,"Macdonald","France",-39,"Intraplate / Oceanic crust (< 15 km)",10,10
+334020,"Northern EPR at 17°N","Mexico",-2700,"Rift zone / Oceanic crust (< 15 km)",1,1
+334021,"Northern EPR at 16°N","Mexico",-2300,"Rift zone / Oceanic crust (< 15 km)",1,1
+334040,"Northern EPR at 10.7°N","Undersea Features",-2900,"Intraplate / Oceanic crust (< 15 km)",1,1
+334050,"Northern EPR at 9.8°N","Undersea Features",-2500,"Rift zone / Oceanic crust (< 15 km)",18,18
+334070,"Galapagos Rift","Ecuador",-2430,"Rift zone / Oceanic crust (< 15 km)",2,2
+334100,"Southern EPR at 8°S","Undersea Features",-2800,"Rift zone / Oceanic crust (< 15 km)",1,1
+334120,"Southern EPR at 17.5°S (Segment K)","Undersea Features",-2566,"Rift zone / Oceanic crust (< 15 km)",5,5
+334130,"Southern EPR at 18.2°S (Segment J)","Undersea Features",-2650,"Rift zone / Oceanic crust (< 15 km)",2,2
+334140,"Southern EPR at 18.5°S (Segment I)","Undersea Features",-2600,"Rift zone / Oceanic crust (< 15 km)",3,3
+335020,"Hollister Ridge","Undersea Features",-1000,"Intraplate / Oceanic crust (< 15 km)",0,0
+335030,"Udintsev Transform","Undersea Features",-5700,"Intraplate / Oceanic crust (< 15 km)",0,0
+341000,"Prieto, Cerro","Mexico",223,"Rift zone / Continental crust (>25 km)",0,0
+341001,"Pinacate","Mexico",1183,"Subduction zone / Continental crust (>25 km)",0,0
+341003,"San Luis, Isla","Mexico",183,"Rift zone / Continental crust (>25 km)",3,3
+341004,"Jaraguay Volcanic Field","Mexico",960,"Rift zone / Continental crust (>25 km)",0,0
+341007,"San Borja Volcanic Field","Mexico",1360,"Rift zone / Continental crust (>25 km)",0,0
+341011,"Tortuga, Isla","Mexico",224,"Rift zone / Continental crust (>25 km)",0,0
+341012,"Comondu-La Purisima","Mexico",780,"Rift zone / Continental crust (>25 km)",0,0
+341020,"Barcena","Mexico",332,"Rift zone / Oceanic crust (< 15 km)",1,1
+341021,"Socorro","Mexico",1050,"Rift zone / Oceanic crust (< 15 km)",3,3
+341022,"Durango Volcanic Field","Mexico",2075,"Subduction zone / Continental crust (>25 km)",0,0
+341024,"Sanganguey","Mexico",2340,"Subduction zone / Continental crust (>25 km)",0,0
+341030,"Ceboruco","Mexico",2280,"Subduction zone / Continental crust (>25 km)",4,4
+341031,"Mascota Volcanic Field","Mexico",2525,"Subduction zone / Continental crust (>25 km)",0,0
+341040,"Colima","Mexico",3850,"Subduction zone / Continental crust (>25 km)",79,79
+341060,"Michoacan-Guanajuato","Mexico",3860,"Subduction zone / Continental crust (>25 km)",10,10
+341061,"Zitacuaro-Valle de Bravo","Mexico",3500,"Subduction zone / Continental crust (>25 km)",1,1
+341062,"Jocotitlan","Mexico",3900,"Subduction zone / Continental crust (>25 km)",2,2
+341070,"Toluca, Nevado de","Mexico",4680,"Subduction zone / Continental crust (>25 km)",1,1
+341080,"Chichinautzin","Mexico",3938,"Subduction zone / Continental crust (>25 km)",8,8
+341082,"Iztaccihuatl","Mexico",5230,"Subduction zone / Continental crust (>25 km)",0,0
+341090,"Popocatepetl","Mexico",5393,"Subduction zone / Continental crust (>25 km)",41,41
+341091,"Malinche, La","Mexico",4461,"Subduction zone / Continental crust (>25 km)",7,7
+341092,"Serdan-Oriental","Mexico",3485,"Subduction zone / Continental crust (>25 km)",0,0
+341093,"Humeros, Los","Mexico",3150,"Subduction zone / Continental crust (>25 km)",1,1
+341094,"Atlixcos, Los","Mexico",775,"Subduction zone / Continental crust (>25 km)",0,0
+341095,"Naolinco Volcanic Field","Mexico",2000,"Subduction zone / Continental crust (>25 km)",1,1
+341096,"Cofre de Perote","Mexico",4282,"Subduction zone / Continental crust (>25 km)",1,1
+341097,"Gloria, La","Mexico",3500,"Subduction zone / Continental crust (>25 km)",0,0
+341098,"Cumbres,  Las","Mexico",3940,"Subduction zone / Continental crust (>25 km)",1,1
+341100,"Orizaba, Pico de","Mexico",5564,"Subduction zone / Continental crust (>25 km)",23,23
+341110,"San Martin","Mexico",1650,"Subduction zone / Continental crust (>25 km)",12,12
+341120,"Chichon, El","Mexico",1150,"Subduction zone / Continental crust (>25 km)",13,13
+341130,"Tacana","Mexico-Guatemala",4064,"Subduction zone / Continental crust (>25 km)",10,10
+342020,"Tajumulco","Guatemala",4203,"Subduction zone / Continental crust (>25 km)",0,0
+342030,"Santa Maria","Guatemala",3745,"Subduction zone / Continental crust (>25 km)",3,3
+342040,"Almolonga","Guatemala",3173,"Subduction zone / Continental crust (>25 km)",3,3
+342060,"Atitlan","Guatemala",3535,"Subduction zone / Continental crust (>25 km)",13,13
+342070,"Toliman","Guatemala",3158,"Subduction zone / Continental crust (>25 km)",0,0
+342080,"Acatenango","Guatemala",3976,"Subduction zone / Continental crust (>25 km)",8,8
+342090,"Fuego","Guatemala",3799,"Subduction zone / Continental crust (>25 km)",61,61
+342100,"Agua","Guatemala",3760,"Subduction zone / Continental crust (>25 km)",0,0
+342110,"Pacaya","Guatemala",2569,"Subduction zone / Continental crust (>25 km)",32,32
+342111,"Cuilapa-Barbarena","Guatemala",1454,"Subduction zone / Continental crust (>25 km)",0,0
+342120,"Tecuamburro","Guatemala",1845,"Subduction zone / Continental crust (>25 km)",1,1
+342121,"Jumaytepeque","Guatemala",1802,"Subduction zone / Continental crust (>25 km)",0,0
+342130,"Moyuta","Guatemala",1662,"Subduction zone / Continental crust (>25 km)",0,0
+342140,"Flores","Guatemala",1600,"Subduction zone / Continental crust (>25 km)",0,0
+342141,"Tahual","Guatemala",1716,"Subduction zone / Continental crust (>25 km)",0,0
+342150,"Santiago, Cerro","Guatemala",1192,"Subduction zone / Continental crust (>25 km)",0,0
+342160,"Suchitan","Guatemala",2042,"Subduction zone / Continental crust (>25 km)",0,0
+342170,"Chingo","Guatemala-El Salvador",1775,"Subduction zone / Continental crust (>25 km)",0,0
+342180,"Ixtepeque","Guatemala",1292,"Subduction zone / Continental crust (>25 km)",0,0
+343002,"Singuil, Cerro","El Salvador",926,"Subduction zone / Continental crust (>25 km)",0,0
+343010,"Apaneca Range","El Salvador",2028,"Subduction zone / Continental crust (>25 km)",0,0
+343020,"Santa Ana","El Salvador",2381,"Subduction zone / Continental crust (>25 km)",13,13
+343030,"Izalco","El Salvador",1950,"Subduction zone / Continental crust (>25 km)",51,51
+343041,"Coatepeque Caldera","El Salvador",746,"Subduction zone / Continental crust (>25 km)",0,0
+343050,"San Salvador","El Salvador",1893,"Subduction zone / Continental crust (>25 km)",5,5
+343051,"Cinotepeque, Cerro","El Salvador",665,"Subduction zone / Continental crust (>25 km)",0,0
+343060,"Ilopango","El Salvador",450,"Subduction zone / Continental crust (>25 km)",2,2
+343070,"San Vicente","El Salvador",2149,"Subduction zone / Continental crust (>25 km)",0,0
+343072,"Taburete","El Salvador",1172,"Subduction zone / Continental crust (>25 km)",0,0
+343080,"Tecapa","El Salvador",1593,"Subduction zone / Continental crust (>25 km)",0,0
+343081,"Usulutan","El Salvador",1449,"Subduction zone / Continental crust (>25 km)",0,0
+343082,"Tigre, El","El Salvador",1640,"Subduction zone / Continental crust (>25 km)",0,0
+343090,"Chinameca","El Salvador",1300,"Subduction zone / Continental crust (>25 km)",0,0
+343100,"San Miguel","El Salvador",2130,"Subduction zone / Continental crust (>25 km)",41,41
+343101,"Aramuaca, Laguna","El Salvador",181,"Subduction zone / Continental crust (>25 km)",0,0
+343130,"Tigre, Isla del","Honduras",774,"Subduction zone / Continental crust (>25 km)",0,0
+343140,"Zacate Grande, Isla","Honduras",640,"Subduction zone / Continental crust (>25 km)",0,0
+343150,"Yojoa, Lago","Honduras",1060,"Subduction zone / Continental crust (>25 km)",2,2
+344010,"Cosiguina","Nicaragua",872,"Subduction zone / Continental crust (>25 km)",5,5
+344020,"San Cristobal","Nicaragua",1745,"Subduction zone / Continental crust (>25 km)",35,35
+344040,"Telica","Nicaragua",1036,"Subduction zone / Continental crust (>25 km)",47,47
+344070,"Negro, Cerro","Nicaragua",728,"Subduction zone / Continental crust (>25 km)",23,23
+344080,"Las Pilas-El Hoyo Complex","Nicaragua",1088,"Subduction zone / Continental crust (>25 km)",3,3
+344090,"Momotombo","Nicaragua",1270,"Subduction zone / Continental crust (>25 km)",19,19
+344091,"Apoyeque","Nicaragua",518,"Subduction zone / Continental crust (>25 km)",4,4
+344092,"Nejapa-Miraflores","Nicaragua",360,"Subduction zone / Continental crust (>25 km)",8,8
+344100,"Masaya","Nicaragua",594,"Subduction zone / Continental crust (>25 km)",36,36
+344101,"Granada","Nicaragua",250,"Subduction zone / Continental crust (>25 km)",0,0
+344110,"Mombacho","Nicaragua",1344,"Subduction zone / Continental crust (>25 km)",0,0
+344111,"Zapatera","Nicaragua",629,"Subduction zone / Continental crust (>25 km)",0,0
+344120,"Concepcion","Nicaragua",1700,"Subduction zone / Continental crust (>25 km)",33,33
+345010,"Orosi","Costa Rica",1659,"Subduction zone / Continental crust (>25 km)",0,0
+345020,"Rincon de la Vieja","Costa Rica",1916,"Subduction zone / Continental crust (>25 km)",30,30
+345030,"Miravalles","Costa Rica",2028,"Subduction zone / Continental crust (>25 km)",2,2
+345031,"Tenorio","Costa Rica",1916,"Subduction zone / Continental crust (>25 km)",0,0
+345033,"Arenal","Costa Rica",1670,"Subduction zone / Continental crust (>25 km)",27,27
+345034,"Platanar","Costa Rica",2267,"Subduction zone / Continental crust (>25 km)",0,0
+345040,"Poas","Costa Rica",2697,"Subduction zone / Continental crust (>25 km)",63,63
+345050,"Barva","Costa Rica",2906,"Subduction zone / Continental crust (>25 km)",1,1
+345060,"Irazu","Costa Rica",3436,"Subduction zone / Continental crust (>25 km)",24,24
+345070,"Turrialba","Costa Rica",3340,"Subduction zone / Continental crust (>25 km)",21,21
+346010,"Baru","Panama",3474,"Subduction zone / Continental crust (>25 km)",8,8
+351011,"Romeral","Colombia",3769,"Subduction zone / Continental crust (>25 km)",2,2
+351012,"Bravo, Cerro","Colombia",3985,"Subduction zone / Continental crust (>25 km)",8,8
+351020,"Ruiz, Nevado del","Colombia",5279,"Subduction zone / Continental crust (>25 km)",20,20
+351021,"Santa Isabel","Colombia",4944,"Subduction zone / Continental crust (>25 km)",4,4
+351030,"Tolima, Nevado del","Colombia",5215,"Subduction zone / Continental crust (>25 km)",12,12
+351040,"Machin","Colombia",2749,"Subduction zone / Continental crust (>25 km)",7,7
+351050,"Huila, Nevado del","Colombia",5364,"Subduction zone / Continental crust (>25 km)",4,4
+351060,"Purace","Colombia",4650,"Subduction zone / Continental crust (>25 km)",28,28
+351061,"Sotara","Colombia",4400,"Subduction zone / Continental crust (>25 km)",0,0
+351070,"Dona Juana","Colombia",4137,"Subduction zone / Continental crust (>25 km)",2,2
+351080,"Galeras","Colombia",4276,"Subduction zone / Continental crust (>25 km)",36,36
+351090,"Azufral","Colombia",4070,"Subduction zone / Continental crust (>25 km)",4,4
+351100,"Cumbal","Colombia",4764,"Subduction zone / Continental crust (>25 km)",2,2
+351110,"Chiles-Cerro Negro","Colombia-Ecuador",4698,"Subduction zone / Continental crust (>25 km)",1,1
+352001,"Soche","Ecuador",3955,"Subduction zone / Continental crust (>25 km)",1,1
+352002,"Chachimbiro","Ecuador",4106,"Subduction zone / Continental crust (>25 km)",1,1
+352003,"Cuicocha","Ecuador",3246,"Subduction zone / Continental crust (>25 km)",4,4
+352004,"Imbabura","Ecuador",4609,"Subduction zone / Continental crust (>25 km)",1,1
+352005,"Mojanda","Ecuador",4263,"Subduction zone / Continental crust (>25 km)",0,0
+352006,"Cayambe","Ecuador",5790,"Subduction zone / Continental crust (>25 km)",22,22
+352010,"Reventador","Ecuador",3562,"Subduction zone / Continental crust (>25 km)",26,26
+352011,"Pululahua","Ecuador",3360,"Subduction zone / Continental crust (>25 km)",4,4
+352020,"Guagua Pichincha","Ecuador",4784,"Subduction zone / Continental crust (>25 km)",33,33
+352021,"Atacazo","Ecuador",4463,"Subduction zone / Continental crust (>25 km)",4,4
+352022,"Chacana","Ecuador",4643,"Subduction zone / Continental crust (>25 km)",5,5
+352030,"Antisana","Ecuador",5753,"Subduction zone / Continental crust (>25 km)",2,2
+352031,"Aliso","Ecuador",4267,"Subduction zone / Continental crust (>25 km)",1,1
+352040,"Sumaco","Ecuador",3990,"Subduction zone / Continental crust (>25 km)",1,1
+352041,"Iliniza","Ecuador",5162,"Subduction zone / Continental crust (>25 km)",0,0
+352050,"Cotopaxi","Ecuador",5911,"Subduction zone / Continental crust (>25 km)",85,85
+352060,"Quilotoa","Ecuador",3914,"Subduction zone / Continental crust (>25 km)",1,1
+352071,"Chimborazo","Ecuador",6261,"Subduction zone / Continental crust (>25 km)",6,6
+352080,"Tungurahua","Ecuador",5023,"Subduction zone / Continental crust (>25 km)",31,31
+352081,"Licto","Ecuador",3322,"Subduction zone / Continental crust (>25 km)",0,0
+352090,"Sangay","Ecuador",5286,"Subduction zone / Continental crust (>25 km)",11,11
+353010,"Fernandina","Ecuador",1476,"Rift zone / Oceanic crust (< 15 km)",33,33
+353011,"Ecuador","Ecuador",790,"Rift zone / Oceanic crust (< 15 km)",1,1
+353020,"Wolf","Ecuador",1710,"Rift zone / Oceanic crust (< 15 km)",16,16
+353030,"Darwin","Ecuador",1330,"Rift zone / Oceanic crust (< 15 km)",3,3
+353040,"Alcedo","Ecuador",1130,"Rift zone / Oceanic crust (< 15 km)",2,2
+353050,"Negra, Sierra","Ecuador",1124,"Rift zone / Oceanic crust (< 15 km)",18,18
+353060,"Azul, Cerro","Ecuador",1640,"Rift zone / Oceanic crust (< 15 km)",14,14
+353070,"Pinta","Ecuador",780,"Rift zone / Oceanic crust (< 15 km)",1,1
+353080,"Marchena","Ecuador",343,"Rift zone / Oceanic crust (< 15 km)",1,1
+353081,"Genovesa","Ecuador",64,"Rift zone / Oceanic crust (< 15 km)",0,0
+353090,"Santiago","Ecuador",920,"Rift zone / Oceanic crust (< 15 km)",3,3
+353091,"Santa Cruz","Ecuador",864,"Rift zone / Oceanic crust (< 15 km)",0,0
+353120,"San Cristobal","Ecuador",759,"Rift zone / Oceanic crust (< 15 km)",0,0
+354000,"Quimsachata-Oroscocha","Peru",3848,"Subduction zone / Continental crust (>25 km)",1,1
+354001,"Auquihuato, Cerro","Peru",5001,"Subduction zone / Continental crust (>25 km)",0,0
+354003,"Coropuna","Peru",6377,"Subduction zone / Continental crust (>25 km)",0,0
+354004,"Andahua-Orcopampa","Peru",4713,"Subduction zone / Continental crust (>25 km)",3,3
+354005,"Huambo","Peru",4554,"Subduction zone / Continental crust (>25 km)",1,1
+354006,"Sabancaya","Peru",5960,"Subduction zone / Continental crust (>25 km)",11,11
+354010,"Misti, El","Peru",5793,"Subduction zone / Continental crust (>25 km)",15,15
+354020,"Ubinas","Peru",5608,"Subduction zone / Continental crust (>25 km)",25,25
+354030,"Huaynaputina","Peru",4679,"Subduction zone / Continental crust (>25 km)",2,2
+354031,"Ticsani","Peru",5382,"Subduction zone / Continental crust (>25 km)",1,1
+354040,"Tutupaca","Peru",5801,"Subduction zone / Continental crust (>25 km)",2,2
+354050,"Yucamane","Peru",5495,"Subduction zone / Continental crust (>25 km)",1,1
+354060,"Casiri, Nevados","Peru",5626,"Subduction zone / Continental crust (>25 km)",0,0
+355011,"Taapaca","Chile",5860,"Subduction zone / Continental crust (>25 km)",8,8
+355012,"Parinacota","Chile-Bolivia",6336,"Subduction zone / Continental crust (>25 km)",6,6
+355020,"Guallatiri","Chile",6071,"Subduction zone / Continental crust (>25 km)",4,4
+355030,"Isluga","Chile",5550,"Subduction zone / Continental crust (>25 km)",7,7
+355032,"Tata Sabaya","Bolivia",5430,"Subduction zone / Continental crust (>25 km)",0,0
+355040,"Irruputuncu","Chile-Bolivia",5163,"Subduction zone / Continental crust (>25 km)",1,1
+355050,"Olca-Paruma","Chile-Bolivia",5705,"Subduction zone / Continental crust (>25 km)",0,0
+355090,"Putana","Chile",5884,"Subduction zone / Continental crust (>25 km)",1,1
+355091,"Sairecabur","Chile-Bolivia",5961,"Subduction zone / Continental crust (>25 km)",0,0
+355092,"Licancabur","Chile-Bolivia",5916,"Subduction zone / Continental crust (>25 km)",0,0
+355093,"Guayaques","Chile-Bolivia",5598,"Subduction zone / Continental crust (>25 km)",0,0
+355094,"Purico Complex","Chile",5703,"Subduction zone / Continental crust (>25 km)",0,0
+355095,"Colachi","Chile",5631,"Subduction zone / Continental crust (>25 km)",0,0
+355096,"Acamarachi","Chile",6023,"Subduction zone / Continental crust (>25 km)",0,0
+355098,"Chiliques","Chile",5778,"Subduction zone / Continental crust (>25 km)",0,0
+355100,"Lascar","Chile",5592,"Subduction zone / Continental crust (>25 km)",32,32
+355101,"Cordon de Puntas Negras","Chile",5852,"Subduction zone / Continental crust (>25 km)",0,0
+355102,"Miniques","Chile",5910,"Subduction zone / Continental crust (>25 km)",0,0
+355103,"Tujle, Cerro","Chile",3550,"Subduction zone / Continental crust (>25 km)",0,0
+355104,"Caichinque","Chile",4458,"Subduction zone / Continental crust (>25 km)",0,0
+355105,"Tilocalar","Chile",3109,"Subduction zone / Continental crust (>25 km)",0,0
+355107,"Pular","Chile",6233,"Subduction zone / Continental crust (>25 km)",0,0
+355108,"Negrillar, La","Chile",4220,"Subduction zone / Continental crust (>25 km)",0,0
+355109,"Socompa","Chile-Argentina",6031,"Subduction zone / Continental crust (>25 km)",1,1
+355110,"Llullaillaco","Chile-Argentina",6739,"Subduction zone / Continental crust (>25 km)",3,3
+355112,"Corrida de Cori Volcanic Field","Chile-Argentina",5451,"Subduction zone / Continental crust (>25 km)",0,0
+355120,"Lastarria","Chile-Argentina",5706,"Subduction zone / Continental crust (>25 km)",0,0
+355121,"Cordon del Azufre","Chile-Argentina",5481,"Subduction zone / Continental crust (>25 km)",0,0
+355122,"Bayo Gorbea, Cerro","Chile-Argentina",5413,"Subduction zone / Continental crust (>25 km)",0,0
+355123,"Nevada, Sierra","Chile-Argentina",6173,"Subduction zone / Continental crust (>25 km)",0,0
+355124,"Falso Azufre","Chile-Argentina",5906,"Subduction zone / Continental crust (>25 km)",0,0
+355125,"Incahuasi, Nevado de","Chile-Argentina",6638,"Subduction zone / Continental crust (>25 km)",0,0
+355130,"Ojos del Salado, Nevados","Chile-Argentina",6879,"Subduction zone / Continental crust (>25 km)",1,1
+355131,"Solo, El","Chile-Argentina",6205,"Subduction zone / Continental crust (>25 km)",0,0
+355160,"Aracar","Argentina",6095,"Subduction zone / Continental crust (>25 km)",0,0
+355161,"Unnamed","Argentina",4652,"Subduction zone / Continental crust (>25 km)",0,0
+355190,"Condor, El","Argentina",6373,"Subduction zone / Continental crust (>25 km)",0,0
+355200,"Peinado","Argentina",5741,"Subduction zone / Continental crust (>25 km)",0,0
+355210,"Blanco, Cerro","Argentina",4670,"Subduction zone / Continental crust (>25 km)",1,1
+355220,"Tipas","Argentina",6658,"Subduction zone / Continental crust (>25 km)",0,0
+356011,"Rapa Nui","Chile",501,"Rift zone / Oceanic crust (< 15 km)",0,0
+357010,"Tupungatito","Chile-Argentina",5660,"Subduction zone / Continental crust (>25 km)",18,18
+357020,"San Jose","Chile-Argentina",6070,"Subduction zone / Continental crust (>25 km)",7,7
+357021,"Maipo","Chile-Argentina",5323,"Subduction zone / Continental crust (>25 km)",4,4
+357022,"Palomo","Chile",4860,"Subduction zone / Continental crust (>25 km)",0,0
+357023,"Atuel, Caldera del","Argentina",5189,"Subduction zone / Continental crust (>25 km)",0,0
+357024,"Risco Plateado","Argentina",4999,"Subduction zone / Continental crust (>25 km)",0,0
+357030,"Tinguiririca","Chile",4280,"Subduction zone / Continental crust (>25 km)",1,1
+357040,"Planchon-Peteroa","Chile",3977,"Subduction zone / Continental crust (>25 km)",20,20
+357041,"Infiernillo","Argentina",3007,"Intraplate / Continental crust (>25 km)",1,1
+357042,"Calabozos","Chile",3508,"Subduction zone / Continental crust (>25 km)",0,0
+357050,"Descabezado Grande","Chile",3953,"Subduction zone / Continental crust (>25 km)",1,1
+357060,"Azul, Cerro","Chile",3788,"Subduction zone / Continental crust (>25 km)",9,9
+357061,"Maule, Laguna del","Chile",2162,"Subduction zone / Continental crust (>25 km)",4,4
+357062,"San Pedro-Pellado","Chile",3621,"Subduction zone / Continental crust (>25 km)",0,0
+357063,"Longavi, Nevado de","Chile",3175,"Subduction zone / Continental crust (>25 km)",1,1
+357064,"Blancas, Lomas","Chile",2268,"Subduction zone / Continental crust (>25 km)",0,0
+357065,"Resago, Volcan","Chile",1890,"Subduction zone / Continental crust (>25 km)",0,0
+357066,"Payun Matru","Argentina",3715,"Subduction zone / Continental crust (>25 km)",1,1
+357070,"Chillan, Nevados de","Chile",3180,"Subduction zone / Continental crust (>25 km)",26,26
+357072,"Tromen Volcanic Plateau","Argentina",4114,"Subduction zone / Continental crust (>25 km)",2,2
+357080,"Antuco","Chile",2979,"Subduction zone / Continental crust (>25 km)",11,11
+357090,"Copahue","Chile-Argentina",2953,"Subduction zone / Continental crust (>25 km)",21,21
+357091,"Callaqui","Chile",3164,"Subduction zone / Continental crust (>25 km)",2,2
+357093,"Tolhuaca","Chile",2739,"Subduction zone / Continental crust (>25 km)",4,4
+357100,"Lonquimay","Chile",2832,"Subduction zone / Continental crust (>25 km)",4,4
+357102,"Blanca, Laguna","Argentina",1700,"Intraplate / Continental crust (>25 km)",0,0
+357110,"Llaima","Chile",3125,"Subduction zone / Continental crust (>25 km)",56,56
+357111,"Sollipulli","Chile",2282,"Subduction zone / Continental crust (>25 km)",2,2
+357112,"Caburgua-Huelemolle","Chile",1652,"Subduction zone / Continental crust (>25 km)",1,1
+357120,"Villarrica","Chile",2847,"Subduction zone / Continental crust (>25 km)",152,152
+357121,"Quetrupillan","Chile",2360,"Subduction zone / Continental crust (>25 km)",4,4
+357122,"Lanin","Chile-Argentina",3776,"Subduction zone / Continental crust (>25 km)",8,8
+357123,"Huanquihue Group","Argentina",2189,"Subduction zone / Continental crust (>25 km)",1,1
+357130,"Mocho-Choshuenco","Chile",2422,"Subduction zone / Continental crust (>25 km)",2,2
+357140,"Carran-Los Venados","Chile",1114,"Subduction zone / Continental crust (>25 km)",3,3
+357150,"Puyehue-Cordon Caulle","Chile",2236,"Subduction zone / Continental crust (>25 km)",26,26
+357153,"Antillanca Volcanic Complex","Chile",1979,"Subduction zone / Continental crust (>25 km)",2,2
+357160,"Puntiagudo-Cordon Cenizos","Chile",2493,"Subduction zone / Continental crust (>25 km)",1,1
+358010,"Osorno","Chile",2659,"Subduction zone / Continental crust (>25 km)",17,17
+358011,"Tronador","Chile-Argentina",3478,"Subduction zone / Continental crust (>25 km)",0,0
+358012,"Cayutue-La Vigueria","Chile",506,"Subduction zone / Continental crust (>25 km)",1,1
+358020,"Calbuco","Chile",1974,"Subduction zone / Continental crust (>25 km)",36,36
+358022,"Yate","Chile",2187,"Subduction zone / Continental crust (>25 km)",1,1
+358023,"Hornopiren","Chile",1572,"Subduction zone / Continental crust (>25 km)",2,2
+358024,"Apagado","Chile",1210,"Subduction zone / Continental crust (>25 km)",1,1
+358025,"Crater Basalt Volcanic Field","Argentina",1344,"Intraplate / Continental crust (>25 km)",0,0
+358030,"Huequi","Chile",1318,"Subduction zone / Continental crust (>25 km)",7,7
+358040,"Michinmahuida","Chile",2452,"Subduction zone / Continental crust (>25 km)",7,7
+358041,"Chaiten","Chile",1122,"Subduction zone / Continental crust (>25 km)",5,5
+358049,"Yanteles","Chile",1790,"Subduction zone / Continental crust (>25 km)",2,2
+358050,"Corcovado","Chile",1826,"Subduction zone / Continental crust (>25 km)",3,3
+358052,"Melimoyu","Chile",2400,"Subduction zone / Continental crust (>25 km)",2,2
+358053,"Puyuhuapi","Chile",524,"Subduction zone / Continental crust (>25 km)",0,0
+358054,"Mentolat","Chile",1660,"Subduction zone / Continental crust (>25 km)",2,2
+358055,"Cay","Chile",2090,"Subduction zone / Continental crust (>25 km)",0,0
+358056,"Maca","Chile",2960,"Subduction zone / Continental crust (>25 km)",2,2
+358057,"Hudson, Cerro","Chile",1905,"Subduction zone / Continental crust (>25 km)",15,15
+358060,"Lautaro","Chile",3542,"Subduction zone / Continental crust (>25 km)",9,9
+358062,"Aguilera","Chile",2546,"Subduction zone / Continental crust (>25 km)",2,2
+358063,"Reclus","Chile",1403,"Subduction zone / Continental crust (>25 km)",4,4
+358064,"Meullin","Chile",1080,"Subduction zone / Continental crust (>25 km)",0,0
+358070,"Burney, Monte","Chile",1758,"Subduction zone / Continental crust (>25 km)",7,7
+358080,"Pali-Aike Volcanic Field","Chile-Argentina",282,"Subduction zone / Continental crust (>25 km)",1,1
+358090,"Fueguino","Chile",157,"Subduction zone / Continental crust (>25 km)",1,1
+360010,"Saba","Netherlands",887,"Subduction zone / Oceanic crust (< 15 km)",1,1
+360020,"Quill, The","Netherlands",601,"Subduction zone / Oceanic crust (< 15 km)",3,3
+360030,"Liamuiga","Saint Kitts and Nevis",1156,"Subduction zone / Oceanic crust (< 15 km)",3,3
+360040,"Nevis Peak","Saint Kitts and Nevis",985,"Subduction zone / Oceanic crust (< 15 km)",0,0
+360050,"Soufriere Hills","United Kingdom",915,"Subduction zone / Oceanic crust (< 15 km)",9,9
+360060,"Soufriere Guadeloupe","France",1467,"Subduction zone / Oceanic crust (< 15 km)",16,16
+360080,"Diables, Morne aux","Dominica",861,"Subduction zone / Oceanic crust (< 15 km)",0,0
+360090,"Diablotins, Morne","Dominica",1430,"Subduction zone / Oceanic crust (< 15 km)",0,0
+360100,"Trois Pitons, Morne","Dominica",1387,"Subduction zone / Oceanic crust (< 15 km)",2,2
+360101,"Watt, Morne","Dominica",1224,"Subduction zone / Oceanic crust (< 15 km)",5,5
+360110,"Plat Pays, Morne","Dominica",940,"Subduction zone / Oceanic crust (< 15 km)",4,4
+360120,"Pelee","France",1372,"Subduction zone / Oceanic crust (< 15 km)",54,54
+360140,"Qualibou","Saint Lucia",777,"Subduction zone / Oceanic crust (< 15 km)",1,1
+360150,"Soufriere St. Vincent","Saint Vincent and the Grenadines",1220,"Subduction zone / Oceanic crust (< 15 km)",22,22
+360160,"Kick 'em Jenny","Grenada",-185,"Subduction zone / Oceanic crust (< 15 km)",15,15
+360170,"St. Catherine","Grenada",840,"Subduction zone / Oceanic crust (< 15 km)",0,0
+370010,"Snaefellsjokull","Iceland",1446,"Rift zone / Oceanic crust (< 15 km)",10,10
+370020,"Helgrindur","Iceland",986,"Rift zone / Oceanic crust (< 15 km)",0,0
+370030,"Ljosufjoll","Iceland",1063,"Rift zone / Oceanic crust (< 15 km)",5,5
+371020,"Reykjanes","Iceland",140,"Rift zone / Oceanic crust (< 15 km)",21,21
+371022,"Eldey","Iceland",70,"Rift zone / Oceanic crust (< 15 km)",5,5
+371030,"Krysuvik-Trolladyngja","Iceland",360,"Rift zone / Oceanic crust (< 15 km)",11,11
+371032,"Fagradalsfjall","Iceland",250,"Rift zone / Oceanic crust (< 15 km)",3,3
+371040,"Brennisteinsfjoll","Iceland",610,"Rift zone / Oceanic crust (< 15 km)",9,9
+371050,"Hengill","Iceland",803,"Rift zone / Oceanic crust (< 15 km)",13,13
+371051,"Hromundartindur","Iceland",550,"Rift zone / Oceanic crust (< 15 km)",0,0
+371060,"Grimsnes","Iceland",200,"Rift zone / Oceanic crust (< 15 km)",11,11
+371070,"Prestahnukur","Iceland",1385,"Rift zone / Oceanic crust (< 15 km)",3,3
+371080,"Oddnyjarhnjukur-Langjokull","Iceland",1100,"Rift zone / Oceanic crust (< 15 km)",6,6
+371090,"Hofsjokull","Iceland",1765,"Rift zone / Oceanic crust (< 15 km)",0,0
+372010,"Vestmannaeyjar","Iceland",283,"Rift zone / Oceanic crust (< 15 km)",10,10
+372020,"Eyjafjallajokull","Iceland",1651,"Rift zone / Oceanic crust (< 15 km)",5,5
+372030,"Katla","Iceland",1490,"Rift zone / Oceanic crust (< 15 km)",128,128
+372040,"Tindfjallajokull","Iceland",1464,"Rift zone / Oceanic crust (< 15 km)",0,0
+372050,"Torfajokull","Iceland",1280,"Rift zone / Oceanic crust (< 15 km)",10,10
+372070,"Hekla","Iceland",1490,"Rift zone / Oceanic crust (< 15 km)",65,65
+373010,"Grimsvotn","Iceland",1719,"Rift zone / Oceanic crust (< 15 km)",76,76
+373012,"Thordarhyrna","Iceland",1650,"Rift zone / Oceanic crust (< 15 km)",3,3
+373030,"Bardarbunga","Iceland",2000,"Rift zone / Oceanic crust (< 15 km)",44,44
+373040,"Tungnafellsjokull","Iceland",1523,"Rift zone / Oceanic crust (< 15 km)",0,0
+373050,"Kverkfjoll","Iceland",1930,"Rift zone / Oceanic crust (< 15 km)",8,8
+373060,"Askja","Iceland",1080,"Rift zone / Oceanic crust (< 15 km)",14,14
+373070,"Fremrinamar","Iceland",970,"Rift zone / Oceanic crust (< 15 km)",4,4
+373080,"Krafla","Iceland",800,"Rift zone / Oceanic crust (< 15 km)",23,23
+373082,"Heidarspordar","Iceland",490,"Rift zone / Oceanic crust (< 15 km)",7,7
+373090,"Theistareykir","Iceland",563,"Rift zone / Oceanic crust (< 15 km)",3,3
+373100,"Tjornes Fracture Zone","Iceland",-75,"Rift zone / Oceanic crust (< 15 km)",1,1
+374010,"Oraefajokull","Iceland",2010,"Rift zone / Oceanic crust (< 15 km)",2,2
+374020,"Esjufjoll","Iceland",1620,"Rift zone / Oceanic crust (< 15 km)",0,0
+374801,"Snaefell","Iceland",1833,"Rift zone / Oceanic crust (< 15 km)",0,0
+375010,"Kolbeinsey Ridge","Iceland",5,"Rift zone / Oceanic crust (< 15 km)",2,2
+376010,"Jan Mayen","Norway",2197,"Rift zone / Oceanic crust (< 15 km)",7,7
+377020,"East Gakkel Ridge at 85°E","Undersea Features",-3800,"Rift zone / Oceanic crust (< 15 km)",1,1
+381040,"Pico Fracture Zone","Undersea Features",-4200,"Intraplate / Oceanic crust (< 15 km)",1,1
+382001,"Flores","Portugal",914,"Intraplate / Continental crust (>25 km)",2,2
+382010,"Fayal","Portugal",1041,"Rift zone / Oceanic crust (< 15 km)",2,2
+382020,"Pico","Portugal",2351,"Rift zone / Oceanic crust (< 15 km)",3,3
+382030,"Sao Jorge","Portugal",1053,"Rift zone / Oceanic crust (< 15 km)",10,10
+382040,"Graciosa","Portugal",402,"Rift zone / Oceanic crust (< 15 km)",1,1
+382050,"Terceira","Portugal",1023,"Rift zone / Oceanic crust (< 15 km)",15,15
+382070,"Don Joao de Castro Bank","Portugal",-13,"Rift zone / Oceanic crust (< 15 km)",1,1
+382080,"Sete Cidades","Portugal",842,"Rift zone / Oceanic crust (< 15 km)",16,16
+382081,"Picos Fissural Volcanic System","Portugal",350,"Rift zone / Oceanic crust (< 15 km)",7,7
+382090,"Agua de Pau","Portugal",947,"Rift zone / Oceanic crust (< 15 km)",10,10
+382100,"Furnas","Portugal",805,"Rift zone / Oceanic crust (< 15 km)",9,9
+382110,"Monaco Bank","Portugal",-197,"Rift zone / Oceanic crust (< 15 km)",2,2
+382120,"Madeira","Portugal",1862,"Intraplate / Oceanic crust (< 15 km)",1,1
+383010,"La Palma","Spain",2426,"Intraplate / Oceanic crust (< 15 km)",14,14
+383020,"Hierro","Spain",1500,"Intraplate / Oceanic crust (< 15 km)",4,4
+383030,"Tenerife","Spain",3715,"Intraplate / Oceanic crust (< 15 km)",42,42
+383040,"Gran Canaria","Spain",1950,"Intraplate / Intermediate crust (15-25 km)",11,11
+383050,"Fuerteventura","Spain",529,"Intraplate / Intermediate crust (15-25 km)",0,0
+383060,"Lanzarote","Spain",670,"Intraplate / Intermediate crust (15-25 km)",4,4
+384010,"Fogo","Cabo Verde",2829,"Intraplate / Intermediate crust (15-25 km)",12,12
+384020,"Brava","Cabo Verde",956,"Intraplate / Intermediate crust (15-25 km)",0,0
+385030,"Romanche Fracture Zone","Undersea Features",-1528,"Rift zone / Oceanic crust (< 15 km)",0,0
+385050,"Ascension","United Kingdom",822,"Rift zone / Oceanic crust (< 15 km)",3,3
+385052,"Walvis Ridge at 33°S","Undersea Features",-1200,"Intraplate / Oceanic crust (< 15 km)",1,1
+386010,"Tristan da Cunha","United Kingdom",2060,"Rift zone / Oceanic crust (< 15 km)",2,2
+386011,"Nightingale Island","United Kingdom",365,"Rift zone / Oceanic crust (< 15 km)",1,1
+386020,"Bouvet","Norway",741,"Rift zone / Oceanic crust (< 15 km)",1,1
+390010,"Buckle Island","Antarctica",1239,"Rift zone / Oceanic crust (< 15 km)",2,2
+390011,"Young Island","Antarctica",1340,"Rift zone / Oceanic crust (< 15 km)",0,0
+390012,"Sturge Island","Antarctica",1167,"Rift zone / Oceanic crust (< 15 km)",0,0
+390013,"Pleiades, The","Antarctica",3040,"Intraplate / Continental crust (>25 km)",1,1
+390015,"Melbourne","Antarctica",2732,"Intraplate / Continental crust (>25 km)",1,1
+390016,"Unnamed","Antarctica",-500,"Intraplate / Continental crust (>25 km)",0,0
+390017,"Morning","Antarctica",2723,"Intraplate / Continental crust (>25 km)",0,0
+390020,"Erebus","Antarctica",3794,"Intraplate / Continental crust (>25 km)",20,20
+390021,"Royal Society Range","Antarctica",3000,"Intraplate / Continental crust (>25 km)",0,0
+390022,"Berlin","Antarctica",3478,"Intraplate / Continental crust (>25 km)",1,1
+390023,"Andrus","Antarctica",2978,"Intraplate / Continental crust (>25 km)",0,0
+390027,"Takahe","Antarctica",3460,"Intraplate / Continental crust (>25 km)",3,3
+390028,"Hudson Mountains","Antarctica",749,"Intraplate / Continental crust (>25 km)",1,1
+390030,"Deception Island","Antarctica",602,"Intraplate / Continental crust (>25 km)",24,24
+390031,"Penguin Island","Antarctica",180,"Intraplate / Continental crust (>25 km)",3,3
+390040,"Bridgeman Island","Antarctica",240,"Intraplate / Continental crust (>25 km)",0,0
+390041,"Paulet","Antarctica",353,"Intraplate / Continental crust (>25 km)",0,0
+390070,"Southern Thule","United Kingdom",1075,"Subduction zone / Oceanic crust (< 15 km)",1,1
+390080,"Bristol Island","United Kingdom",1100,"Subduction zone / Oceanic crust (< 15 km)",6,6
+390081,"Montagu Island","United Kingdom",1370,"Subduction zone / Oceanic crust (< 15 km)",1,1
+390090,"Saunders","United Kingdom",843,"Subduction zone / Oceanic crust (< 15 km)",7,7
+390100,"Candlemas Island","United Kingdom",550,"Subduction zone / Oceanic crust (< 15 km)",3,3
+390110,"Hodson","United Kingdom",835,"Subduction zone / Oceanic crust (< 15 km)",0,0
+390120,"Leskov Island","United Kingdom",190,"Subduction zone / Oceanic crust (< 15 km)",0,0
+390130,"Zavodovski","United Kingdom",551,"Subduction zone / Oceanic crust (< 15 km)",2,2
+390140,"Protector Seamounts","United Kingdom",-55,"Subduction zone / Oceanic crust (< 15 km)",1,1
+390829,"Mount Haddington Volcanic Field","Antarctica",1544,"Intraplate / Continental crust (>25 km)",0,0
+390847,"Melville","Antarctica",549,"Intraplate / Continental crust (>25 km)",0,0

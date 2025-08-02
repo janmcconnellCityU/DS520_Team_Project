@@ -8,16 +8,22 @@
 # Mac system files
 .DS_Store
 
-# Output folders (optional — you can remove these if you want to track results)
-output/
-figures/
-*.pdf
-*.png
-
-# Large data files (optional — remove if you want to include your CSVs)
-*.csv
-*.xlsx
+# Do NOT ignore output or visuals (track these folders)
+#output/
+#figures/
+# Instead, ignore individual file types globally *except* inside those folders
 
 # Logs or temp files
 *.log
 *.tmp
+
+# Ignore exported PDFs (used for reports or plots)
+*.pdf
+
+# Ignore large raw datasets at root level
+# Allow tracking .csv and .xlsx files in specific subfolders
+# Ignore all .csv/.xlsx files except those inside output/ or visuals/
+*.csv
+*.xlsx
+!3_risk_profiling/output/*.csv
+!3_risk_profiling/visuals/*.png
