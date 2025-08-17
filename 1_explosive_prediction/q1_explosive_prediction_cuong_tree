@@ -1,0 +1,184 @@
+# File: q1_explosive_prediction_cuong_tree.R
+# Purpose: Decision Tree model for explosive eruption classification
+# Author: Cuong Vo
+# Date: 2025-08-14
+
+# ======================= Setup & Packages ===========================
+req_pkgs <- c("readr","dplyr","caret","pROC","rpart","rpart.plot","ggplot2")
+new_pkgs <- req_pkgs[!(req_pkgs %in% installed.packages()[,"Package"])]
+if (length(new_pkgs)) install.packages(new_pkgs, dependencies = TRUE)
+
+library(readr)
+library(dplyr)
+library(caret)
+library(pROC)
+library(rpart)
+library(rpart.plot)
+library(ggplot2)
+
+# Output folders
+if (!dir.exists("outputs")) dir.create("outputs", recursive = TRUE)
+if (!dir.exists("outputs/plots")) dir.create("outputs/plots", recursive = TRUE)
+if (!dir.exists("outputs/tables")) dir.create("outputs/tables", recursive = TRUE)
+
+# ======================= Data Load & Prep ===========================
+# Load dataset 
+volcano_data_A1 <- read_csv("datasets/processed/volcano_approach1.csv")
+
+# Factor conversions 
+volcano_data_A1 <- volcano_data_A1 %>%
+  mutate(
+    Explosive = factor(Explosive, labels = c("No", "Yes")),
+    Volcano_Landform = as.factor(Volcano_Landform),
+    Primary_Volcano_Type = as.factor(Primary_Volcano_Type),
+    Tectonic_Setting = as.factor(Tectonic_Setting),
+    Dominant_Rock_Type = as.factor(Dominant_Rock_Type),
+    Volcanic_Region_Group = as.factor(Volcanic_Region_Group),
+    Volcanic_Region = as.factor(Volcanic_Region),
+    Country = as.factor(Country)
+  )
+volcano_dt <- volcano_data_A1 %>%
+  select(
+    Explosive,
+    Latitude,
+    Longitude,
+    Elevation,
+    Volcano_Landform,
+    Primary_Volcano_Type,
+    Tectonic_Setting,
+    Dominant_Rock_Type
+  ) %>%
+  mutate(
+    Volcano_Landform      = factor(make.names(Volcano_Landform)),
+    Primary_Volcano_Type  = factor(make.names(Primary_Volcano_Type)),
+    Tectonic_Setting      = factor(make.names(Tectonic_Setting)),
+    Dominant_Rock_Type    = factor(make.names(Dominant_Rock_Type))
+  )
+
+# Match base file's reference level (positive class "Yes")
+volcano_dt$Explosive <- relevel(volcano_dt$Explosive, ref = "Yes")
+
+# ======================= Train / Test Split =========================
+set.seed(520)
+train_idx <- createDataPartition(volcano_dt$Explosive, p = 0.8, list = FALSE)
+train_data <- volcano_dt[train_idx, ]
+test_data  <- volcano_dt[-train_idx, ]
+
+# ======================= Cross-Validation Control ===================
+cv_ctrl <- trainControl(
+  method = "cv",
+  number = 5,
+  classProbs = TRUE,
+  summaryFunction = twoClassSummary,
+  #sampling = "smote",
+  savePredictions = "final"
+)
+# ======================= Model Training (rpart) =====================
+# We'll tune complexity parameter (cp). Larger cp => simpler tree.
+cp_grid <- expand.grid(cp = seq(0.000, 0.050, by = 0.005))
+
+dtree_model <- train(
+  Explosive ~ .,
+  data = train_data,
+  method = "rpart",
+  metric = "ROC",
+  trControl = cv_ctrl,
+  tuneGrid = cp_grid
+)
+
+cat("Best hyperparameters:\n")
+print(dtree_model$bestTune)
+
+# Save CV results table
+cv_results <- dtree_model$results
+write.csv(cv_results, "outputs/tables/dtree_cv_results.csv", row.names = FALSE)
+
+# ======================= Variable Importance ========================
+vi <- varImp(dtree_model, scale = TRUE)
+vi_df <- as.data.frame(vi$importance)
+vi_df$Feature <- rownames(vi_df)
+vi_df <- vi_df[order(-vi_df$Overall), c("Feature","Overall")]
+write.csv(vi_df, "outputs/tables/dtree_variable_importance.csv", row.names = FALSE)
+
+# ======================= Plot: Tree Diagram =========================
+png("outputs/plots/dtree_tree.png", width = 1400, height = 1000)
+rpart.plot(
+  dtree_model$finalModel,
+  main = "Decision Tree for Volcano Explosivity",
+  extra = 104, 
+  under = TRUE,
+  faclen = 0,
+  tweak = 1.1
+)
+dev.off()
+
+# ======================= Evaluation on Test Set =====================
+# Class predictions
+dtree_pred_class <- predict(dtree_model, test_data)
+
+# Probabilities (for ROC)
+dtree_pred_prob  <- predict(dtree_model, test_data, type = "prob")[,"Yes"]
+
+# Confusion matrix at default 0.5 threshold (caret predict class)
+dtree_conf <- confusionMatrix(dtree_pred_class, test_data$Explosive, positive = "Yes")
+cat("\nConfusion Matrix (default class threshold):\n")
+print(dtree_conf)
+
+# ROC / AUC
+dtree_roc <- roc(response = test_data$Explosive,
+                 predictor = dtree_pred_prob,
+                 levels   = c("No","Yes"),
+                 direction = "<")
+dtree_auc <- auc(dtree_roc)
+cat(sprintf("\nAUC: %.4f\n", as.numeric(dtree_auc)))
+
+# Plot ROC
+png("outputs/plots/dtree_roc.png", width = 1200, height = 900)
+plot(dtree_roc, main = "ROC Curve - Decision Tree")
+dev.off()
+
+# ======================= Threshold Optimization (Optional) ==========
+# Use Youden's J to choose a probability threshold that may improve sensitivity
+opt_coords <- coords(dtree_roc, "best", best.method = "youden")
+opt_thresh <- as.numeric(opt_coords["threshold"])
+cat(sprintf("\nBest threshold by Youden's J: %.4f\n", opt_thresh))
+
+dtree_pred_opt <- factor(ifelse(dtree_pred_prob >= opt_thresh, "Yes", "No"),
+                         levels = c("No","Yes"))
+dtree_conf_opt <- confusionMatrix(dtree_pred_opt, test_data$Explosive, positive = "Yes")
+cat("\nConfusion Matrix (Youden-optimized threshold):\n")
+print(dtree_conf_opt)
+
+# Save key metrics to CSV
+metrics <- data.frame(
+  Setting      = c("DefaultClass", "YoudenOptimized"),
+  Accuracy     = c(dtree_conf$overall["Accuracy"], dtree_conf_opt$overall["Accuracy"]),
+  Kappa        = c(dtree_conf$overall["Kappa"], dtree_conf_opt$overall["Kappa"]),
+  Sensitivity  = c(dtree_conf$byClass["Sensitivity"], dtree_conf_opt$byClass["Sensitivity"]),
+  Specificity  = c(dtree_conf$byClass["Specificity"], dtree_conf_opt$byClass["Specificity"]),
+  Precision    = c(dtree_conf$byClass["Pos Pred Value"], dtree_conf_opt$byClass["Pos Pred Value"]),
+  Recall       = c(dtree_conf$byClass["Sensitivity"], dtree_conf_opt$byClass["Sensitivity"]),
+  F1           = c(dtree_conf$byClass["F1"], dtree_conf_opt$byClass["F1"]),
+  AUC          = as.numeric(dtree_auc)
+)
+write.csv(metrics, "outputs/tables/dtree_test_metrics.csv", row.names = FALSE)
+
+cat("\nDone. Artifacts saved to:\n",
+    "- outputs/plots/dtree_tree.png\n",
+    "- outputs/plots/dtree_roc.png\n",
+    "- outputs/tables/dtree_cv_results.csv\n",
+    "- outputs/tables/dtree_variable_importance.csv\n",
+    "- outputs/tables/dtree_test_metrics.csv\n")
+
+  # Quick Recap of Results
+# ----------------------------------------------------------
+# Model           Accuracy   Sensitivity   Specificity   Balanced Acc   Precision
+# -------------------------------------------------------------------------------
+# Tree w/o SMOTE   0.755       0.643         0.792         0.717         0.501
+# Tree w/ SMOTE    0.767       0.630         0.812         0.721         0.522
+#
+# Notes:
+# - Tree w/o SMOTE: Slightly higher sensitivity (better at catching "Yes").
+# - Tree w/ SMOTE: Slightly higher specificity and precision (fewer false alarms).
+# - Balanced Accuracy is nearly the same (~0.72).
+ #the no-SMOTE tree is a touch stronger (higher recall) if we want to catch as manu YEs as possible

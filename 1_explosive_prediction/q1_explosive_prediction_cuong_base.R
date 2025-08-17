@@ -117,7 +117,7 @@ tune_grid <- expand.grid(
   #lambda = 10^seq(-4, 1, length = 50)        # Lambda values from 0.0001 to 10
   # The first run through show that there is no point for training futher
   # than 2.5 as there is no increase in performance.
-  # Prefer to Graph/logistic_tuning_ggplot_1.png
+  # Prefer to plots/logistic_tuning_ggplot_1.png
   # we zoom in on 0.0001 to 2.5
   #lambda = seq(0.0001, 2.5, length.out = 50)
   # narrow down to 0.001 - 0.2
@@ -231,4 +231,5 @@ print("complete_tuning")
 # It means it failed to detect when volcano would erupt almost all the time,
 # and this is more dangerous.
 # Ridge model has lower accuracy but has better sensitivity
-# it can detect when volcano erupt explosively better.
+# More likely to catch explosive volcanoes, 
+# even at the cost of more false alarms.
