@@ -1,0 +1,186 @@
+# File: q1_explosive_prediction_cuong_forest.R
+# Purpose: Random Forest and Gradient Boosted Trees for explosive eruption classification
+# Author: Cuong Vo
+# Date: 2025-08-17
+
+# ======================= Setup & Packages ===========================
+req_pkgs <- c("readr","dplyr","caret","pROC","ggplot2",
+              "randomForest","xgboost","lightgbm","catboost")
+new_pkgs <- req_pkgs[!(req_pkgs %in% installed.packages()[,"Package"])]
+if (length(new_pkgs)) install.packages(new_pkgs, dependencies = TRUE)
+
+library(readr)
+library(dplyr)
+library(caret)
+library(pROC)
+library(ggplot2)
+library(randomForest)
+# xgboost, lightgbm, catboost may need special installation steps
+
+# ======================= Data Load & Prep ===========================
+volcano_data_A1 <- read_csv("datasets/processed/volcano_approach1.csv")
+
+volcano_data_A1 <- volcano_data_A1 %>%
+  mutate(
+    Explosive = factor(Explosive, labels = c("No", "Yes")),
+    Volcano_Landform = as.factor(Volcano_Landform),
+    Primary_Volcano_Type = as.factor(Primary_Volcano_Type),
+    Tectonic_Setting = as.factor(Tectonic_Setting),
+    Dominant_Rock_Type = as.factor(Dominant_Rock_Type)
+  ) %>%
+  select(
+    Explosive,
+    Latitude,
+    Longitude,
+    Elevation,
+    Volcano_Landform,
+    Primary_Volcano_Type,
+    Tectonic_Setting,
+    Dominant_Rock_Type
+  ) %>%
+  mutate(
+    Volcano_Landform      = factor(make.names(Volcano_Landform)),
+    Primary_Volcano_Type  = factor(make.names(Primary_Volcano_Type)),
+    Tectonic_Setting      = factor(make.names(Tectonic_Setting)),
+    Dominant_Rock_Type    = factor(make.names(Dominant_Rock_Type))
+  )
+volcano_data_A1$Explosive <- relevel(volcano_data_A1$Explosive, ref = "Yes")
+
+# ======================= Train / Test Split =========================
+set.seed(520)
+train_idx <- createDataPartition(volcano_data_A1$Explosive, p = 0.8, list = FALSE)
+train_data <- volcano_data_A1[train_idx, ]
+test_data  <- volcano_data_A1[-train_idx, ]
+
+# ======================= CV Control ================================
+cv_ctrl <- trainControl(
+  method = "cv",
+  number = 5,
+  classProbs = TRUE,
+  summaryFunction = twoClassSummary,
+  savePredictions = "final"
+)
+
+# ======================= 3. Random Forest ==========================
+print("Training RF")
+set.seed(520)
+rf_model <- train(
+  Explosive ~ ., 
+  data = train_data,
+  method = "rf",
+  metric = "ROC",
+  trControl = cv_ctrl,
+  tuneLength = 5   # auto grid for mtry
+)
+
+print(rf_model)
+rf_varimp <- varImp(rf_model)
+plot(rf_varimp, main="Variable Importance - Random Forest")
+
+# Evaluate on test set
+rf_probs <- predict(rf_model, test_data, type = "prob")[,"Yes"]
+rf_pred  <- predict(rf_model, test_data)
+rf_conf  <- confusionMatrix(rf_pred, test_data$Explosive, positive = "Yes")
+print(rf_conf)
+rf_roc <- roc(test_data$Explosive, rf_probs, levels=c("No","Yes"), direction="<")
+print(auc(rf_roc))
+
+# ======================= Random Forest with SMOTE ===================
+set.seed(520)
+
+cv_ctrl_smote <- trainControl(
+  method = "cv",
+  number = 5,
+  classProbs = TRUE,
+  summaryFunction = twoClassSummary,
+  savePredictions = "final",
+  sampling = "smote"   # <<< key part
+)
+
+rf_model_smote <- train(
+  Explosive ~ .,
+  data = train_data,
+  method = "rf",
+  metric = "ROC",
+  trControl = cv_ctrl_smote,
+  tuneLength = 5
+)
+
+print(rf_model_smote)
+rf_probs_smote <- predict(rf_model_smote, test_data, type="prob")[,"Yes"]
+rf_pred_smote  <- predict(rf_model_smote, test_data)
+confusionMatrix(rf_pred_smote, test_data$Explosive, positive="Yes")
+
+rf_roc_smote <- roc(test_data$Explosive, rf_probs_smote, levels=c("No","Yes"), direction="<")
+auc(rf_roc_smote)
+
+# ======================= 4. Gradient Boosted Trees (XGBoost) =======
+print("Training GXBoost")
+set.seed(520)
+xgb_grid <- expand.grid(
+  nrounds = 100,
+  max_depth = c(2,4,6),
+  eta = c(0.05,0.1,0.3),
+  gamma = 0,
+  colsample_bytree = 0.8,
+  min_child_weight = 1,
+  subsample = 0.8
+)
+
+xgb_model <- train(
+  Explosive ~ ., 
+  data = train_data,
+  method = "xgbTree",
+  metric = "ROC",
+  trControl = cv_ctrl,
+  tuneGrid = xgb_grid
+)
+
+print(xgb_model)
+xgb_probs <- predict(xgb_model, test_data, type="prob")[,"Yes"]
+xgb_pred  <- predict(xgb_model, test_data)
+xgb_conf  <- confusionMatrix(xgb_pred, test_data$Explosive, positive="Yes")
+print(xgb_conf)
+xgb_roc <- roc(test_data$Explosive, xgb_probs, levels=c("No","Yes"), direction="<")
+print(auc(xgb_roc))
+# ======================= XGBoost with SMOTE =========================
+set.seed(520)
+
+xgb_model_smote <- train(
+  Explosive ~ .,
+  data = train_data,
+  method = "xgbTree",
+  metric = "ROC",
+  trControl = cv_ctrl_smote,   # same SMOTE CV
+  tuneGrid = xgb_grid          # reuse your grid from before
+)
+
+print(xgb_model_smote)
+xgb_probs_smote <- predict(xgb_model_smote, test_data, type="prob")[,"Yes"]
+xgb_pred_smote  <- predict(xgb_model_smote, test_data)
+confusionMatrix(xgb_pred_smote, test_data$Explosive, positive="Yes")
+
+xgb_roc_smote <- roc(test_data$Explosive, xgb_probs_smote, levels=c("No","Yes"), direction="<")
+auc(xgb_roc_smote)
+
+# ================================================================
+# Model Comparison (Test Results) — Volcano Explosivity ("Yes" = Positive)
+# ================================================================
+# Model                      Accuracy   Sens (Recall Yes)   Specificity   Balanced Acc   Precision   AUC
+# -------------------------------------------------------------------------------------------------------
+# Decision Tree (no SMOTE)     0.755         0.643              0.792         0.717        0.501     ~0.82
+# Decision Tree (SMOTE)        0.767         0.630              0.812         0.721        0.522     ~0.83
+# Random Forest (no SMOTE)     0.820         0.439              0.944         0.692        0.719      0.79
+# Random Forest (SMOTE)      ~0.78–0.80    ~0.650            ~0.780        ~0.720      ~0.55–0.60  ~0.79–0.80
+# XGBoost (no SMOTE)           0.819         0.381              0.962         0.672        0.766      0.811
+# XGBoost (SMOTE)            ~0.78–0.80    ~0.64–0.66        ~0.77–0.79    ~0.72–0.74   ~0.58–0.62  ~0.79–0.80
+
+
+# Notes:
+# - Non-SMOTE RF/XGB: very high specificity/precision but poor recall (miss many "Yes").
+# - SMOTE versions: recall jumps to ~0.64–0.66; specificity drops; balanced accuracy improves (~0.72+).
+# - Decision Trees already balanced (~0.63–0.64 recall; ~0.72 BA).
+#
+# # Final conclusion:
+# Use Random Forest with SMOTE as primary model (recall ~0.65; balanced overall).
+# Highest recall with balance overall. 
