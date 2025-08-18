@@ -7,12 +7,8 @@
 # Question: Q3 – Volcanic Risk Profiling
 
 ###############################################################################
-
 # Set working directory (adjust path as needed)
-setwd("C:/Users/JanMc/Dropbox/Education/_GitHub_coursework/
-       janmcconnellCityU-coursework/DS623/DS520_Team_Project/
-       3_risk_profiling")
-
+setwd("C:/Users/JanMc/Dropbox/Education/_GitHub_coursework/janmcconnellCityU-coursework/DS520 Artificial Intel for Data Sci/TEAM_PROJECT/DS520_Team_Project/3_risk_profiling") #nolint
 ###############################################################################
 
 # Load necessary libraries
