@@ -8,7 +8,7 @@ This project applies data mining techniques in R to analyze volcanic risk using 
 
 1. Can a volcano’s physical characteristics, such as type, elevation, and tectonic setting, be used to predict whether it is likely to erupt explosively?  
 2. Can the Volcanic Explosivity Index (VEI) of a future eruption be estimated based on volcano traits and eruption history?  
-3. Which volcanoes pose the greatest hazard when considering both population exposure and eruption frequency?
+3. Which volcanoes have the highest historical eruption frequency, and what does this imply for hazard assessment?
 
 To address these questions, we will build machine learning models for classification, regression, and clustering. Together, these models provide a multi-dimensional view of volcanic hazard with potential applications in risk assessment and disaster preparedness.
 
