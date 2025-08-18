@@ -297,6 +297,10 @@ ggplot(eruptions_clean, aes(x = factor(explosive))) +
 # Save the plot to the visuals folder
 ggsave("1_explosive_prediction/visuals/explosive_class_distribution.png", width = 7, height = 5, dpi = 300) #nolint
 
+# explosive_class_distribution.png
+# This plot shows the distribution of explosive vs. non-explosive eruptions
+# (explosive = 1 vs 0).
+
 # Extract coefficients and convert to data frame
 coef_df <- as.data.frame(summary(logistic_model)$coefficients)
 coef_df$Variable <- rownames(coef_df)
@@ -321,6 +325,10 @@ ggplot(top_coef, aes(x = reorder(Variable, Estimate), y = Estimate)) +
 # Save plot
 ggsave("1_explosive_prediction/visuals/top_logistic_coefficients.png", width = 8, height = 6, dpi = 300) #nolint
 
+# top_logistic_coefficients.png
+# This plot highlights which features (volcano types and tectonic settings) most
+# influence the probability of an explosive eruption.
+
 # Create confusion matrix table
 cm_table <- table(Predicted = pred_labels, Actual = test_data$explosive)
 
@@ -340,6 +348,10 @@ ggplot(cm_df, aes(x = Actual, y = Predicted, fill = Freq)) +
 # Save plot
 ggsave("1_explosive_prediction/visuals/confusion_matrix_heatmap.png", width = 6, height = 5, dpi = 300) #nolint
 
+# confusion_matrix_heatmap.png
+# This plot shows how well the model classifies explosive and non-explosive
+# eruptions.
+
 # Plot predicted probabilities
 ggplot(data.frame(Probability = pred_probs), aes(x = Probability)) +
   geom_histogram(fill = "#009E73", bins = 30, color = "white") +
@@ -351,3 +363,31 @@ ggplot(data.frame(Probability = pred_probs), aes(x = Probability)) +
 
 # Save plot
 ggsave("1_explosive_prediction/visuals/predicted_probabilities_histogram.png", width = 7, height = 5, dpi = 300) #nolint
+
+# predicted_probabilities_histogram.png
+# This plot visualizes the distribution of predicted probabilities from the
+# logistic regression model and the chosen classification threshold (0.5).
+
+ggplot(model_data, aes(x = factor(explosive), y = `Elevation_(m)`)) +
+  geom_boxplot(fill = "lightblue") +
+  labs(title = "Elevation Distribution by Eruption Type",
+       x = "Explosive Eruption (1 = Yes, 0 = No)",
+       y = "Elevation (m)") +
+  theme_minimal()
+ggsave("1_explosive_prediction/visuals/elevation_by_eruption_type.png")
+
+# elevation_by_eruption_type.png
+# Bloxplot that shows how elevation differes between explosive and non-explosive
+# volcanoes.
+
+ggplot(model_data, aes(x = fct_infreq(Primary_Volcano_Type))) +
+  geom_bar(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Frequency of Primary Volcano Types",
+       x = "Volcano Type", y = "Count") +
+  theme_minimal()
+ggsave("1_explosive_prediction/visuals/volcano_type_counts.png")
+
+# volcano_type_counts.png
+# A simple bar chart of volcano type frequencies to show their distribution in
+# the dataset.
