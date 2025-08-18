@@ -33,7 +33,7 @@ volcanoes <- read_excel("datasets/GVP_Volcano_List_Holocene_202507152349.xlsx")
 eruptions <- read_excel("datasets/GVP_Eruption_Search_Result.xlsx")
 
 ################################################################################
-# DATA EXPLORATION OF ERUPTION DATA
+# EXPLORATION OF ERUPTION DATA
 ################################################################################
 
 # Preview VEI values in the eruption data
@@ -66,7 +66,7 @@ cat("\nExplosive eruption label after removing NAs:\n")
 print(table(eruptions_clean$explosive, useNA = "always"))
 
 ###############################################################################
-# DATA EXPLORATION OF VOLCANO DATA
+# EXPLORATION OF VOLCANO DATA
 ###############################################################################
 
 # Preview column names to confirm availability
