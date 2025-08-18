@@ -8,7 +8,7 @@
 
 ###############################################################################
 # Set working directory (adjust path as needed)
-setwd("C:/Users/JanMc/Dropbox/Education/_GitHub_coursework/janmcconnellCityU-coursework/DS520 Artificial Intel for Data Sci/TEAM_PROJECT/DS520_Team_Project/3_risk_profiling") #nolint
+setwd("C:/Users/JanMc/Dropbox/Education/_GitHub_coursework/janmcconnellCityU-coursework/DS520 Artificial Intel for Data Sci/TEAM_PROJECT/DS520_Team_Project") #nolint
 ###############################################################################
 
 # Load necessary libraries
