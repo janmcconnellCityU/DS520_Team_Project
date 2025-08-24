@@ -11,6 +11,7 @@ library(readxl)
 library(dplyr)
 library(forcats)
 
+
 # Load data
 volcano_traits <- read_excel(
   "datasets/GVP_Volcano_List_Holocene_202507152349.xlsx",
@@ -108,11 +109,11 @@ cleaned_traits <- cleaned_traits %>%
 #       Introduces systematic bias toward 0, 
 #       lowering model precision for explosive predictions.
 #       Might hurt performance if missingness is not random.
-cleaned_traits <- cleaned_traits %>%
+vei_estimate_data <- cleaned_traits %>%
   mutate(
-    VEI = as.numeric(VEI),
-    Explosive = ifelse(!is.na(VEI) & VEI >= 3, 1, 0)
-  )
+    VEI = suppressWarnings(as.numeric(na_if(VEI, "")))
+  ) %>%
+  filter(!is.na(VEI))
 # Start with apporach 1
 volcano_data_A1 <- cleaned_traits %>%
   mutate(
@@ -123,5 +124,5 @@ volcano_data_A1 <- cleaned_traits %>%
 
 print(table(volcano_data_A1$Explosive))
 
-write.csv(cleaned_traits, "datasets/processed/cleaned_traits.csv", row.names = FALSE)
+write.csv(vei_estimate_data, "datasets/processed/vei_estimate_data.csv", row.names = FALSE)
 write.csv(volcano_data_A1, "datasets/processed/volcano_approach1.csv", row.names = FALSE)

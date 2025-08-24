@@ -74,7 +74,7 @@ cv_ctrl <- trainControl(
   savePredictions = "final"
 )
 # ======================= Model Training (rpart) =====================
-# We'll tune complexity parameter (cp). Larger cp => simpler tree.
+#  parameter (cp). Larger cp => simpler tree.
 cp_grid <- expand.grid(cp = seq(0.000, 0.050, by = 0.005))
 
 dtree_model <- train(

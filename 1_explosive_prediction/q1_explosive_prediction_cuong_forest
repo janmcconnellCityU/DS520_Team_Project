@@ -94,7 +94,7 @@ cv_ctrl_smote <- trainControl(
   classProbs = TRUE,
   summaryFunction = twoClassSummary,
   savePredictions = "final",
-  sampling = "smote"   # <<< key part
+  sampling = "smote"   
 )
 
 rf_model_smote <- train(
@@ -184,3 +184,25 @@ auc(xgb_roc_smote)
 # # Final conclusion:
 # Use Random Forest with SMOTE as primary model (recall ~0.65; balanced overall).
 # Highest recall with balance overall. 
+
+# ======================= Save Best Hyperparameters =======================
+
+# Random Forest
+write.csv(rf_model$results, "outputs/tables/rf_cv_results.csv", row.names = FALSE)
+writeLines(capture.output(rf_model$bestTune),
+           "outputs/tables/rf_classification_best_params.txt")
+
+# Random Forest with SMOTE
+write.csv(rf_model_smote$results, "outputs/tables/rf_smote_cv_results.csv", row.names = FALSE)
+writeLines(capture.output(rf_model_smote$bestTune),
+           "outputs/tables/rf_smote_classification_best_params.txt")
+
+# XGBoost
+write.csv(xgb_model$results, "outputs/tables/xgb_cv_results.csv", row.names = FALSE)
+writeLines(capture.output(xgb_model$bestTune),
+           "outputs/tables/xgb_classification_best_params.txt")
+
+# XGBoost with SMOTE
+write.csv(xgb_model_smote$results, "outputs/tables/xgb_smote_cv_results.csv", row.names = FALSE)
+writeLines(capture.output(xgb_model_smote$bestTune),
+           "outputs/tables/xgb_smote_classification_best_params.txt")

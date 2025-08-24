@@ -10,7 +10,6 @@
 #                          + Categorical (Volcano_Landform, Tectonic_Setting, Dominant_Rock_Type)
 #       - Most data are non linear pattern (checknig through data anlysis)
 # ... add more reason here later
-#
 #  Chosen model
 # 1. Logistic Regression as base model (Simple and interpretable)
 # 2. Decision Tree
